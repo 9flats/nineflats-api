@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Nineflats::Api::VERSION
   s.authors     = ["Lena Herrmann"]
   s.email       = ["lena@zeromail.org"]
-  s.homepage    = ""
+  s.homepage    = "http://9flats.github.com/api_docs/index.html"
   s.summary     = %q{9flats API}
   s.description = %q{Let's you use the 9flats API'}
 
@@ -17,8 +17,4 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
 end
