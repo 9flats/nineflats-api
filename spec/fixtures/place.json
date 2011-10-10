@@ -1,0 +1,46 @@
+{
+    "place": {
+        "name": "Cowoco",
+        "city": "Cologne",
+        "slug": "cowoco",
+        "zipcode": "51063",
+        "number_of_beds": 1,
+        "number_of_bedrooms": 1,
+        "currency": "EUR",
+        "lat": 50.949,
+        "lng": 6.98678,
+        "district": "NRW",
+        "number_of_bathrooms": 0,
+        "cancellation_rules": "flexible",
+        "charge_per_extra_person": "30.0",
+        "minimum_nights": 1,
+        "maximum_nights": null,
+        "bed_type": "Real bed",
+        "size": null,
+        "manual": "",
+        "house_rules": "",
+        "pets_around": false,
+        "bathroom_type": "Shared",
+        "cleaning_fee": null,
+        "charge_per_extra_person_limit": null,
+        "favorites_count": 1,
+        "state": "",
+        "amenities_list": [],
+        "featured_photo_url": "/data/place_photos/photos/102918-1310638639/medium.jpg",
+        "price": 500.0,
+        "country": "Germany",
+        "category": "House",
+        "place_type": "Private room",
+        "links": [{
+            "rel": "self",
+            "href": "https://api.9flats.com/api/places/cowoco"
+        }, {
+            "rel": "full",
+            "href": "http://www.9flats.com/places/cowoco"
+        }],
+        "host": {
+            "name": "John D.",
+            "slug": "john-d-34"
+        }
+    }
+}
