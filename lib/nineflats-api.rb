@@ -1,4 +1,1 @@
-require "nineflats-api/version"
-require "nineflats-api/helpers"
-require "nineflats-api/place"
-
+Dir["lib/nineflats-api/*.rb"].each {|f| require File.expand_path(f) }

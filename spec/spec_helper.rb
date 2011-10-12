@@ -1,10 +1,10 @@
 require 'rubygems'
 require 'bundler/setup'
-
+require 'fakeweb'
 require 'nineflats-api'
 
-RSpec.configure do |config|
-  config.fixture_path = '/spec/fixtures/'
-end
+Dir["spec/fixtures/*.rb"].each {|f| require File.expand_path(f) }
 
-FakeWeb.register_uri(:get, "http://api.9flats.com/place/cowoco/", :body => "")
+RSpec.configure do |config|
+  # 
+end
