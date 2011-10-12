@@ -7,6 +7,10 @@ describe Nineflats::Place do
       "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa.json?client_id=#{Nineflats::Base.client_app_key}&language=en", 
       :body => place_fixture
     )
+    FakeWeb.register_uri(:get, 
+      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/prices.json?client_id=#{Nineflats::Base.client_app_key}", 
+      :body => place_prices_fixture
+    )
   end
   
   describe "fetch" do
@@ -73,6 +77,18 @@ describe Nineflats::Place do
       @place.prices.weekend_night_price.should == 90.0
       @place.prices.weekly_discount_in_percent.should == 5.55
       @place.prices.monthly_discount_in_percent.should == 11.11
+    end
+    
+    it "should add the seasons" do
+      @place.prices.seasons.length.should == 2
+      @place.prices.seasons[0].from.should == "2011-09-05"
+      @place.prices.seasons[0].to.should == "2011-09-30"
+      @place.prices.seasons[0].price.should == 100.0
+      @place.prices.seasons[0].weekend_night_price.should == 110.0
+      @place.prices.seasons[1].from.should == "2011-10-01"
+      @place.prices.seasons[1].to.should == "2011-10-31"
+      @place.prices.seasons[1].price.should == 75.0
+      @place.prices.seasons[1].weekend_night_price.should == 75.0
     end
   end
 end

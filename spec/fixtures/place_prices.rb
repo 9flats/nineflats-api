@@ -1,4 +1,4 @@
-def prices_fixture
+def place_prices_fixture
   '{
     "place_prices": {
       "currency": "EUR",
