@@ -1,8 +1,12 @@
 module Nineflats
   class Base
-    attr_accessor :client_app_key
-    @@client_app_key = nil
-    
-    
+    class << self
+      def client_app_key
+        @@client_app_key
+      end
+      def client_app_key=(key)
+        @@client_app_key = key
+      end
+    end
   end
 end
