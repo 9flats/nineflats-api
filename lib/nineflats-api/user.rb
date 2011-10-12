@@ -16,10 +16,10 @@ module Nineflats
     end
 
     def self.fetch(slug, lang)
-      User.new(Helpers.get_data(user_url(slug, lang)))
+      User.new(Helpers.get_data(User.api_call(slug, lang)))
     end
     
-    def self.user_url(slug, lang)
+    def self.api_call(slug, lang)
       base_url + "/users/#{slug}.json?client_id=#{Nineflats::Base.client_app_key}&language=#{lang}"
     end
   end

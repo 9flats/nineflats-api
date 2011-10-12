@@ -61,4 +61,18 @@ describe Nineflats::Place do
       @place.host.slug.should == "paulo-m"
     end
   end
+  
+  describe "prices" do
+    before(:each) do
+      @place = Nineflats::Place.fetch('apt-no-centro-histrico-de-lisboa', 'en')
+    end
+
+    it "should add the basic prices to the place" do
+      @place.prices.currency.should == "EUR"
+      @place.prices.default_price.should == 90.0
+      @place.prices.weekend_night_price.should == 90.0
+      @place.prices.weekly_discount_in_percent.should == 5.55
+      @place.prices.monthly_discount_in_percent.should == 11.11
+    end
+  end
 end

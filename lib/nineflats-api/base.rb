@@ -11,5 +11,9 @@ module Nineflats
     def self.base_url
       "http://api.9flats.com/api"
     end
+    
+    def self.api_call
+      raise "override me!"
+    end
   end
 end
