@@ -42,7 +42,7 @@ module Nineflats
       @lng                           = place["lng"]
       @district                      = place["district"]
 
-      @host = User.new(place["host"]["name"], place["host"]["slug"])
+      @host = User.new({"user"=>place["host"]})
 
       @self_url = place["links"].first.select{|link| link["rel"] == "self"}["href"]
       @full_url = place["links"].first.select{|link| link["rel"] == "full"}["href"]

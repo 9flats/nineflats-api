@@ -1,10 +1,18 @@
 module Nineflats
   class User < Base
-    attr_accessor :name, :slug
+    attr_accessor :name, :slug, :user_photo_url, :self_url, :favorites_url
     
-    def initialize(name, slug)
-      @name = name
-      @slug = slug
+    def initialize(json)
+      user = json.first[1]
+      
+      @name           = user["name"]
+      @slug           = user["slug"]
+      @user_photo_url = user["user_photo_url"]
+      
+      if user["links"]
+        @self_url = user["links"].first.select{|link| link["rel"] == "self"}["href"]
+        @favorites_url = user["links"].first.select{|link| link["rel"] == "favorites"}["href"]
+      end
     end
 
     def self.fetch(slug, lang)
@@ -12,7 +20,7 @@ module Nineflats
     end
     
     def self.user_url(slug, lang)
-      base_url + "/places/#{slug}.json?client_id=#{Nineflats::Base.client_app_key}&language=#{lang}"
+      base_url + "/users/#{slug}.json?client_id=#{Nineflats::Base.client_app_key}&language=#{lang}"
     end
   end
 end
