@@ -1,1 +1,1 @@
-Dir["lib/nineflats-api/*.rb"].each {|f| require File.expand_path(f) }
+Dir[File.dirname(__FILE__) + "/nineflats-api/**/*.rb"].sort.each { |f| require File.expand_path(f) }
