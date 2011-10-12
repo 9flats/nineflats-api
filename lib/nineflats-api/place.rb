@@ -6,10 +6,10 @@ module Nineflats
                   :size, :house_rules, :pets_around, :bathroom_type, :cleaning_fee, 
                   :charge_per_extra_person_limit, :favorites_count, :amenities_list,
                   :featured_photo_url, :price, :charge_per_extra_person, :country,
-                  :category, :place_type, :bed_type, :bathroom_type
+                  :category, :place_type, :bed_type, :bathroom_type,
+                  :host, :self_url, :full_url
     
     def initialize(json)
-      puts json
       place = json.first[1]
       
       @name                          = place["name"]
@@ -41,6 +41,11 @@ module Nineflats
       @lat                           = place["lat"]
       @lng                           = place["lng"]
       @district                      = place["district"]
+
+      @host = User.new(place["host"]["name"], place["host"]["slug"])
+
+      @self_url = place["links"].first.select{|link| link["rel"] == "self"}["href"]
+      @full_url = place["links"].first.select{|link| link["rel"] == "full"}["href"]
     end
 
     def self.fetch(slug, lang)
@@ -48,7 +53,7 @@ module Nineflats
     end
     
     def self.place_url(slug, lang)
-      "http://api.9flats.com/api/places/#{slug}.json?client_id=#{Nineflats::Base.client_app_key}&language=#{lang}"
+      base_url + "/places/#{slug}.json?client_id=#{Nineflats::Base.client_app_key}&language=#{lang}"
     end
   end
 end

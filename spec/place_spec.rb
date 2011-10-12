@@ -51,11 +51,14 @@ describe Nineflats::Place do
     end
     
     it "should set the links" do
-      # @place.links.should
+      @place.self_url = "http://www.9flats.com/api/places/apt-no-centro-histrico-de-lisboa?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.full_url = "http://www.9flats.com/places/apt-no-centro-histrico-de-lisboa"
     end
 
     it "should set the host" do
-      
+      @place.host.class.should == Nineflats::User
+      @place.host.name.should == "Paulo M."
+      @place.host.slug.should == "paulo-m"
     end
   end
 end
