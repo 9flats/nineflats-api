@@ -20,7 +20,7 @@ module Nineflats
     end
     
     def self.api_call(slug, lang)
-      base_url + "/users/#{slug}.json?client_id=#{Nineflats::Base.client_app_key}&lang=#{lang}"
+      base_url + "/users/#{slug}?client_id=#{Nineflats::Base.client_app_key}&lang=#{lang}"
     end
   end
 end
