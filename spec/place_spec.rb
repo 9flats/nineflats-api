@@ -56,6 +56,7 @@ describe Nineflats::Place do
       @place.country.should == "Portugal"
       @place.category.should == "Apartment"
       @place.place_type.should == "Entire place"
+      @place.description.should == "<b>Panoramic terrace in the historic center of Lisbon, close to Subway and Airport</b>"
     end
     
     it "should set the links" do

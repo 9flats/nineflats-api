@@ -6,7 +6,7 @@ module Nineflats
                   :size, :house_rules, :pets_around, :bathroom_type, :cleaning_fee, 
                   :charge_per_extra_person_limit, :favorites_count, :amenities_list,
                   :featured_photo_url, :price, :charge_per_extra_person, :country,
-                  :category, :place_type, :bed_type, :bathroom_type,
+                  :category, :place_type, :bed_type, :bathroom_type, :description,
                   :host, :self_url, :full_url, :prices, :reviews, :photos
     
     def initialize(json)
@@ -41,6 +41,7 @@ module Nineflats
       @lat                           = place["lat"]
       @lng                           = place["lng"]
       @district                      = place["district"]
+      @description                   = place["description"]
 
       @host = User.new({"user"=>place["host"]})
 
