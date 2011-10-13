@@ -94,6 +94,32 @@ describe Nineflats::Place do
       @place.prices.seasons[1].price.should == 75.0
       @place.prices.seasons[1].weekend_night_price.should == 75.0
     end
+    
+    it "should return an empty seasons array when there are no seasons" do
+      FakeWeb.register_uri(:get, 
+        "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/prices.json?client_id=#{Nineflats::Base.client_app_key}", 
+        :body => '{"place_prices":{"currency":"GBP","default_price":64.71,"weekend_night_price":64.71,"weekly_discount_in_percent":null,"monthly_discount_in_percent":null,"seasons":[]}}'
+      )
+      
+      @place.prices.seasons.should == []
+    end
+    
+    it "should return nil when the API call fails" do
+      FakeWeb.register_uri(:get, 
+        "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/prices.json?client_id=#{Nineflats::Base.client_app_key}", 
+        :body => ''
+      )
+      
+      @place.prices.should == nil
+    end
+    
+    it "should cache the prices" do
+      Nineflats::Helpers.should_receive(:get_data).and_return(JSON.parse(place_prices_fixture))
+      @place.prices
+
+      Nineflats::Helpers.should_not_receive(:get_data)
+      @place.prices
+    end
   end
 
   describe "reviews" do
@@ -101,17 +127,40 @@ describe Nineflats::Place do
       @place = Nineflats::Place.fetch('apt-no-centro-histrico-de-lisboa', 'en')
     end
 
-    it "should add the total number of reviews to the place" do
-      @place.reviews.total.should == 2
+    it "should add the reviews" do
+      @place.reviews.length.should == 2
+      
+      @place.reviews[0].user_text.should == "Jan is a really nice outgoing person. I had a great time at his place. You should ask him for that tastey Polish vodka!!"
+      @place.reviews[0].place_text.should == "It\'s a nice and lovely flat in a really great area of cologne. everything is in walking distance and it is great start to explore the cologne and its nightlife."
+      @place.reviews[0].place_stars.should == 5
+      @place.reviews[0].language.should == "en"
+      @place.reviews[1].language.should == "de"
     end
     
-    it "should add the reviews" do
-      @place.reviews.reviews.length.should == 2
-      @place.reviews.reviews[0].user_text.should == "Jan is a really nice outgoing person. I had a great time at his place. You should ask him for that tastey Polish vodka!!"
-      @place.reviews.reviews[0].place_text.should == "It\'s a nice and lovely flat in a really great area of cologne. everything is in walking distance and it is great start to explore the cologne and its nightlife."
-      @place.reviews.reviews[0].place_stars.should == 5
-      @place.reviews.reviews[0].language.should == "en"
-      @place.reviews.reviews[1].language.should == "de"
+    it "should return an empty array when there are no reviews" do
+      FakeWeb.register_uri(:get, 
+        "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/reviews.json?client_id=#{Nineflats::Base.client_app_key}", 
+        :body => '{"total":0,"reviews":[]}'
+      )
+      
+      @place.reviews.should == []
     end
+    
+    it "should return nil when the API call fails" do
+      FakeWeb.register_uri(:get, 
+        "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/reviews.json?client_id=#{Nineflats::Base.client_app_key}", 
+        :body => ''
+      )
+      
+      @place.reviews.should == nil
+    end
+    
+    it "should cache the reviews" do
+      Nineflats::Helpers.should_receive(:get_data).and_return(JSON.parse(place_reviews_fixture))
+      @place.reviews
+
+      Nineflats::Helpers.should_not_receive(:get_data)
+      @place.reviews
+    end 
   end
 end

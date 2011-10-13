@@ -1,3 +1,5 @@
+Read about the API here: http://9flats.github.com/api_docs/
+
 ### How to update this gem
 
     $ git clone git@github.com:9flats/nineflats-api.git

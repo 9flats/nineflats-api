@@ -53,11 +53,25 @@ module Nineflats
     end
     
     def prices
-      @prices = Prices.new(Helpers.get_data(Prices.api_call(slug)))
+      return @prices if @prices
+      
+      json = Helpers.get_data(Prices.api_call(slug))
+      
+      @prices = Prices.new(json) if json && json["place_prices"]
     end
     
     def reviews
-      @reviews = Reviews.new(Helpers.get_data(Reviews.api_call(slug)))
+      return @reviews if @reviews
+      
+      json = Helpers.get_data(Review.api_call(slug))
+      
+      if json && json["reviews"]
+        @reviews = []
+        json["reviews"].each do |review_hash|
+          @reviews << Review.new(review_hash)
+        end
+      end
+      @reviews
     end
     
     def self.api_call(slug, lang)
