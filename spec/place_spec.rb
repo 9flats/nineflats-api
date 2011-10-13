@@ -4,7 +4,7 @@ describe Nineflats::Place do
   before(:each) do
     Nineflats::Base.stub!(:client_app_key).and_return("WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S")
     FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa.json?client_id=#{Nineflats::Base.client_app_key}&language=en", 
+      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa.json?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
       :body => place_fixture
     )
     FakeWeb.register_uri(:get, 
