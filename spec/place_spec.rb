@@ -11,6 +11,10 @@ describe Nineflats::Place do
       "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/prices.json?client_id=#{Nineflats::Base.client_app_key}", 
       :body => place_prices_fixture
     )
+    FakeWeb.register_uri(:get, 
+      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/reviews.json?client_id=#{Nineflats::Base.client_app_key}", 
+      :body => place_reviews_fixture
+    )
   end
   
   describe "fetch" do
@@ -89,6 +93,25 @@ describe Nineflats::Place do
       @place.prices.seasons[1].to.should == "2011-10-31"
       @place.prices.seasons[1].price.should == 75.0
       @place.prices.seasons[1].weekend_night_price.should == 75.0
+    end
+  end
+
+  describe "reviews" do
+    before(:each) do
+      @place = Nineflats::Place.fetch('apt-no-centro-histrico-de-lisboa', 'en')
+    end
+
+    it "should add the total number of reviews to the place" do
+      @place.reviews.total.should == 2
+    end
+    
+    it "should add the reviews" do
+      @place.reviews.reviews.length.should == 2
+      @place.reviews.reviews[0].user_text.should == "Jan is a really nice outgoing person. I had a great time at his place. You should ask him for that tastey Polish vodka!!"
+      @place.reviews.reviews[0].place_text.should == "It\'s a nice and lovely flat in a really great area of cologne. everything is in walking distance and it is great start to explore the cologne and its nightlife."
+      @place.reviews.reviews[0].place_stars.should == 5
+      @place.reviews.reviews[0].language.should == "en"
+      @place.reviews.reviews[1].language.should == "de"
     end
   end
 end

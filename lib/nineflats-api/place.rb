@@ -7,7 +7,7 @@ module Nineflats
                   :charge_per_extra_person_limit, :favorites_count, :amenities_list,
                   :featured_photo_url, :price, :charge_per_extra_person, :country,
                   :category, :place_type, :bed_type, :bathroom_type,
-                  :host, :self_url, :full_url, :prices
+                  :host, :self_url, :full_url, :prices, :reviews
     
     def initialize(json)
       place = json.first[1]
@@ -54,6 +54,10 @@ module Nineflats
     
     def prices
       @prices = Prices.new(Helpers.get_data(Prices.api_call(slug)))
+    end
+    
+    def reviews
+      @reviews = Reviews.new(Helpers.get_data(Reviews.api_call(slug)))
     end
     
     def self.api_call(slug, lang)
