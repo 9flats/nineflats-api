@@ -33,31 +33,31 @@ def place_fixture
       "place_type": "Entire place",
       "links": [{
         "rel": "self",
-        "href": "http://localhost:3000/api/places/apt-no-centro-histrico-de-lisboa"
+        "href": "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa"
       },
       {
         "rel": "full",
-        "href": "http://localhost:3000/places/apt-no-centro-histrico-de-lisboa"
+        "href": "http://www.9flats.com/places/apt-no-centro-histrico-de-lisboa"
       },
       {
         "rel": "photos",
-        "href": "http://localhost:3000/api/places/apt-no-centro-histrico-de-lisboa/photos"
+        "href": "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/photos"
       },
       {
         "rel": "prices",
-        "href": "http://localhost:3000/api/places/apt-no-centro-histrico-de-lisboa/prices"
+        "href": "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/prices"
       },
       {
         "rel": "reviews",
-        "href": "http://localhost:3000/api/places/apt-no-centro-histrico-de-lisboa/reviews"
+        "href": "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/reviews"
       },
       {
         "rel": "calendar: current month",
-        "href": "http://localhost:3000/api/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10"
+        "href": "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10"
       },
       {
         "rel": "calendar: next month",
-        "href": "http://localhost:3000/api/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11"
+        "href": "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11"
       }],
       "host": {
         "name": "Paulo M.",

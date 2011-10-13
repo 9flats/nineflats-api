@@ -1,6 +1,6 @@
 module Nineflats
   class User < Base
-    attr_accessor :name, :slug, :user_photo_url, :self_url, :favorites_url
+    attr_accessor :name, :slug, :user_photo_url, :self_url, :favorites_url, :full_url
     
     def initialize(json)
       user = json.first[1]
@@ -10,8 +10,9 @@ module Nineflats
       @user_photo_url = user["user_photo_url"]
       
       if user["links"]
-        @self_url = user["links"].first.select{|link| link["rel"] == "self"}["href"]
-        @favorites_url = user["links"].first.select{|link| link["rel"] == "favorites"}["href"]
+        @self_url      = Nineflats::Base.object_link("self", user["links"])
+        @full_url      = Nineflats::Base.object_link("full", user["links"])
+        @favorites_url = Nineflats::Base.object_link("favorites", user["links"])
       end
     end
 

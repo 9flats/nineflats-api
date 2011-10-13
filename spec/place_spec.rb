@@ -60,8 +60,13 @@ describe Nineflats::Place do
     end
     
     it "should set the links" do
-      @place.self_url = "http://www.9flats.com/api/places/apt-no-centro-histrico-de-lisboa?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
-      @place.full_url = "http://www.9flats.com/places/apt-no-centro-histrico-de-lisboa"
+      @place.self_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa"
+      @place.full_url.should == "http://www.9flats.com/places/apt-no-centro-histrico-de-lisboa"
+      @place.photos_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/photos"
+      @place.prices_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/prices"
+      @place.reviews_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/reviews"
+      @place.calendar_current_month_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10"
+      @place.calendar_next_month_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11"
     end
 
     it "should set the host" do

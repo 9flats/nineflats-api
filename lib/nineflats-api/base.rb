@@ -15,5 +15,11 @@ module Nineflats
     def self.api_call
       raise "override me!"
     end
+    
+    def self.object_link(name, array)
+      link = array.select{ |link|
+        link["rel"] == name
+      }.first["href"]
+    end
   end
 end

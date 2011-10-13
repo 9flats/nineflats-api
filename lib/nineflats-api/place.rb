@@ -7,7 +7,9 @@ module Nineflats
                   :charge_per_extra_person_limit, :favorites_count, :amenities_list,
                   :featured_photo_url, :price, :charge_per_extra_person, :country,
                   :category, :place_type, :bed_type, :bathroom_type, :description,
-                  :host, :self_url, :full_url, :prices, :reviews, :photos
+                  :host, :self_url, :full_url, :photos_url, :prices_url, :reviews_url,
+                  :calendar_current_month_url, :calendar_next_month_url, 
+                  :prices, :reviews, :photos
     
     def initialize(json)
       place = json.first[1]
@@ -43,10 +45,16 @@ module Nineflats
       @district                      = place["district"]
       @description                   = place["description"]
 
-      @host = User.new({"user"=>place["host"]})
+      @host = User.new({"user" => place["host"]})
 
-      @self_url = place["links"].first.select{|link| link["rel"] == "self"}["href"]
-      @full_url = place["links"].first.select{|link| link["rel"] == "full"}["href"]
+      # puts place["links"]
+      @self_url                   = Nineflats::Base.object_link("self", place["links"])
+      @full_url                   = Nineflats::Base.object_link("full", place["links"])
+      @photos_url                 = Nineflats::Base.object_link("photos", place["links"])
+      @prices_url                 = Nineflats::Base.object_link("prices", place["links"])
+      @reviews_url                = Nineflats::Base.object_link("reviews", place["links"])
+      @calendar_current_month_url = Nineflats::Base.object_link("calendar: current month", place["links"])
+      @calendar_next_month_url    = Nineflats::Base.object_link("calendar: next month", place["links"])
     end
 
     def self.fetch(slug, lang)

@@ -25,8 +25,9 @@ describe Nineflats::User do
     end
     
     it "should set the links" do
-      @user.self_url = "http://www.9flats.com/places/jana-k-1"
-      @user.favorites_url = "http://www.9flats.com/places/jana-k-1/favorites"
+      @user.self_url.should == "http://api.9flats.com/api/users/jana-k-1"
+      @user.full_url.should == "http://www.9flats.com/users/jana-k-1"
+      @user.favorites_url.should == "http://api.9flats.com/api/users/jana-k-1/favorites"
     end
   end
 end
