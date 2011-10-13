@@ -89,6 +89,12 @@ module Nineflats
       @photos
     end
     
+    def calendar(year, month)
+      json = Helpers.get_data(Calendar.api_call(slug, year, month))
+
+      Calendar.new(json) if json && json["calendar"]
+    end
+    
     def self.api_call(slug, lang)
       base_url + "/places/#{slug}?client_id=#{Nineflats::Base.client_app_key}&lang=#{lang}"
     end

@@ -8,7 +8,7 @@ describe Nineflats::Place do
       :body => place_fixture
     )
     FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/reviews?client_id=#{Nineflats::Base.client_app_key}", 
+      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/photos?client_id=#{Nineflats::Base.client_app_key}", 
       :body => place_photos_fixture
     )
   end
@@ -44,7 +44,7 @@ describe Nineflats::Place do
       @place.photos.should == nil
     end
     
-    it "should cache the reviews" do
+    it "should cache the places" do
       Nineflats::Helpers.should_receive(:get_data).and_return(JSON.parse(place_photos_fixture))
       @place.photos
 
