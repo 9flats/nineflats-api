@@ -1,7 +1,6 @@
 require 'fakeweb'
 require 'nineflats-api'
-
-Dir["spec/fixtures/*.rb"].each {|f| require File.expand_path(f) }
+require 'fixtures'
 
 RSpec.configure do |config|
   # 
