@@ -5,11 +5,11 @@ describe Nineflats::Place do
     Nineflats::Base.stub!(:client_app_key).and_return("WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S")
     FakeWeb.register_uri(:get, 
       "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
-      :body => place_fixture
+      :body => Fixtures.place
     )
     FakeWeb.register_uri(:get, 
       "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=#{Nineflats::Base.client_app_key}", 
-      :body => place_calendar_fixture
+      :body => Fixtures.place_calendar
     )
   end
   

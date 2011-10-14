@@ -5,11 +5,11 @@ describe Nineflats::Place do
     Nineflats::Base.stub!(:client_app_key).and_return("WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S")
     FakeWeb.register_uri(:get, 
       "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
-      :body => place_fixture
+      :body => Fixtures.place
     )
     FakeWeb.register_uri(:get, 
       "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/photos?client_id=#{Nineflats::Base.client_app_key}", 
-      :body => place_photos_fixture
+      :body => Fixtures.place_photos
     )
   end
   
@@ -45,7 +45,7 @@ describe Nineflats::Place do
     end
     
     it "should cache the places" do
-      Nineflats::Helpers.should_receive(:get_data).and_return(JSON.parse(place_photos_fixture))
+      Nineflats::Helpers.should_receive(:get_data).and_return(JSON.parse(Fixtures.place_photos))
       @place.photos
 
       Nineflats::Helpers.should_not_receive(:get_data)

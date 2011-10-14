@@ -5,7 +5,7 @@ describe Nineflats::User do
     Nineflats::Base.stub!(:client_app_key).and_return("WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S")
     FakeWeb.register_uri(:get, 
       "http://api.9flats.com/api/users/jana-k-1?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
-      :body => user_fixture
+      :body => Fixtures.user
     )
   end
   
