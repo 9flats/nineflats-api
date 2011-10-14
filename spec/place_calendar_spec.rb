@@ -4,11 +4,11 @@ describe Nineflats::Place do
   before(:each) do
     Nineflats::Base.stub!(:client_app_key).and_return("WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S")
     FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
+      "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
       :body => Fixtures.place
     )
     FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=#{Nineflats::Base.client_app_key}", 
+      "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=#{Nineflats::Base.client_app_key}", 
       :body => Fixtures.place_calendar
     )
   end
@@ -29,7 +29,7 @@ describe Nineflats::Place do
 
     it "should return nil when the API call fails" do
       FakeWeb.register_uri(:get, 
-        "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=#{Nineflats::Base.client_app_key}", 
+        "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=#{Nineflats::Base.client_app_key}", 
         :body => ''
       )
       

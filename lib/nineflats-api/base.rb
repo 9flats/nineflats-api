@@ -9,7 +9,7 @@ module Nineflats
     end
 
     def self.base_url
-      "http://api.9flats.com/api"
+      "http://api.9flats.com/api/v1"
     end
     
     def self.api_call

@@ -4,11 +4,11 @@ describe Nineflats::Place do
   before(:each) do
     Nineflats::Base.stub!(:client_app_key).and_return("WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S")
     FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
+      "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
       :body => Fixtures.place
     )
     FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/prices?client_id=#{Nineflats::Base.client_app_key}", 
+      "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=#{Nineflats::Base.client_app_key}", 
       :body => Fixtures.place_prices
     )
   end
@@ -40,7 +40,7 @@ describe Nineflats::Place do
     
     it "should return an empty seasons array when there are no seasons" do
       FakeWeb.register_uri(:get, 
-        "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/prices?client_id=#{Nineflats::Base.client_app_key}", 
+        "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=#{Nineflats::Base.client_app_key}", 
         :body => '{"place_prices":{"currency":"GBP","default_price":64.71,"weekend_night_price":64.71,"weekly_discount_in_percent":null,"monthly_discount_in_percent":null,"seasons":[]}}'
       )
       
@@ -49,7 +49,7 @@ describe Nineflats::Place do
     
     it "should return nil when the API call fails" do
       FakeWeb.register_uri(:get, 
-        "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/prices?client_id=#{Nineflats::Base.client_app_key}", 
+        "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=#{Nineflats::Base.client_app_key}", 
         :body => ''
       )
       

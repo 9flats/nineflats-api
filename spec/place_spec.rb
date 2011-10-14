@@ -4,15 +4,15 @@ describe Nineflats::Place do
   before(:each) do
     Nineflats::Base.stub!(:client_app_key).and_return("WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S")
     FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
+      "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
       :body => Fixtures.place
     )
     FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/prices?client_id=#{Nineflats::Base.client_app_key}", 
+      "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=#{Nineflats::Base.client_app_key}", 
       :body => Fixtures.place_prices
     )
     FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/reviews?client_id=#{Nineflats::Base.client_app_key}", 
+      "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/reviews?client_id=#{Nineflats::Base.client_app_key}", 
       :body => Fixtures.place_reviews
     )
   end
@@ -60,13 +60,13 @@ describe Nineflats::Place do
     end
     
     it "should set the links" do
-      @place.self_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa"
+      @place.self_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa"
       @place.full_url.should == "http://www.9flats.com/places/apt-no-centro-histrico-de-lisboa"
-      @place.photos_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/photos"
-      @place.prices_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/prices"
-      @place.reviews_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/reviews"
-      @place.calendar_current_month_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10"
-      @place.calendar_next_month_url.should == "http://api.9flats.com/api/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11"
+      @place.photos_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/photos"
+      @place.prices_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices"
+      @place.reviews_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/reviews"
+      @place.calendar_current_month_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10"
+      @place.calendar_next_month_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11"
     end
 
     it "should set the host" do

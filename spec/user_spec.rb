@@ -4,7 +4,7 @@ describe Nineflats::User do
   before(:each) do
     Nineflats::Base.stub!(:client_app_key).and_return("WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S")
     FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/users/jana-k-1?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
+      "http://api.9flats.com/api/v1/users/jana-k-1?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
       :body => Fixtures.user
     )
   end
@@ -25,9 +25,9 @@ describe Nineflats::User do
     end
     
     it "should set the links" do
-      @user.self_url.should == "http://api.9flats.com/api/users/jana-k-1"
+      @user.self_url.should == "http://api.9flats.com/api/v1/users/jana-k-1"
       @user.full_url.should == "http://www.9flats.com/users/jana-k-1"
-      @user.favorites_url.should == "http://api.9flats.com/api/users/jana-k-1/favorites"
+      @user.favorites_url.should == "http://api.9flats.com/api/v1/users/jana-k-1/favorites"
     end
   end
 end
