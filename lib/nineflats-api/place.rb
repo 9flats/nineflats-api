@@ -47,7 +47,6 @@ module Nineflats
 
       @host = User.new({"user" => place["host"]})
 
-      # puts place["links"]
       @self_url                   = Nineflats::Base.object_link("self", place["links"])
       @full_url                   = Nineflats::Base.object_link("full", place["links"])
       @photos_url                 = Nineflats::Base.object_link("photos", place["links"])
@@ -60,18 +59,15 @@ module Nineflats
     def self.search(params = nil)
       params ||= {}
       
-      queries = []
-      params.each do |key, value|
-        queries << "&search[#{key}]=#{value}"
+      queries = params.collect do |key, value|
+        "&search[#{key}]=#{value}"
       end
       
       result = Helpers.get_data(base_url + "/places?client_id=#{Nineflats::Base.client_app_key}" + queries.join)
       
-      places = []
-      result["places"].each do |place_json|
-        places << Place.new(place_json)
+      result["places"].collect do |place_json|
+        Place.new(place_json)
       end
-      places
     end
 
     def self.fetch(slug, lang)
@@ -92,12 +88,10 @@ module Nineflats
       json = Helpers.get_data(Review.api_call(slug))
       
       if json && json["reviews"]
-        @reviews = []
-        json["reviews"].each do |review_hash|
-          @reviews << Review.new(review_hash)
+        @reviews = json["reviews"].collect do |review_hash|
+          Review.new(review_hash)
         end
       end
-      @reviews
     end
     
     def photos
@@ -106,12 +100,10 @@ module Nineflats
       json = Helpers.get_data(Photo.api_call(slug))
       
       if json && json["place_photos"]
-        @photos = []
-        json["place_photos"].each do |photo_hash|
-          @photos << Photo.new(photo_hash)
+        @photos = json["place_photos"].collect do |photo_hash|
+          Photo.new(photo_hash)
         end
       end
-      @photos
     end
     
     def calendar(year, month)

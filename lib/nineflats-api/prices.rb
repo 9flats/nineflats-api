@@ -13,9 +13,8 @@ module Nineflats
       @weekly_discount_in_percent  = prices["weekly_discount_in_percent"]
       @monthly_discount_in_percent = prices["monthly_discount_in_percent"]
       
-      @seasons = []
-      prices["seasons"].each do |season|
-        @seasons << Season.new(season)
+      @seasons = prices["seasons"].collect do |season|
+        Season.new(season)
       end
     end
     
