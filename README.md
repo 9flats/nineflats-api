@@ -2,6 +2,8 @@ This gem helps you to use the 9flats.com API in your Ruby code. It always uses t
 
 Find the full API documentation here: http://9flats.github.com/api_docs/
 
+You can also play around with the API [in your browser]("http://nineflats-api-example.heroku.com/").
+
 ### Usage
 
 Just a few examples:
