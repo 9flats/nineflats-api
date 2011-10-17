@@ -27,7 +27,7 @@
             "charge_per_extra_person_limit": null,
             "favorites_count": 0,
             "amenities_list": ["TV", "Heating", "Kitchen", "Parking", "Washer", "Smoking allowed", "Family/Kid friendly", "Pets allowed", "Hot Tub", "Indoor Fireplaces", "Balcony", "Dishwasher", "Phone", "Garden", "Fridge/freezer", "Shower/bathtub", "Baby crib", "Final cleaning"],
-            "featured_photo_url": "/data/place_photos/photos/99648-1310406532/medium.jpg",
+            "featured_photo_url": "http://img1.9flats.com/place_photos/photos/99648-1310406532/medium.jpg",
             "description": " \"PODERE INCROCIATI\" rises in the heart of Montagnola Senese, just 15 km/9 miles far from Siena and 75 km/47,5 miles far from Florence, among the greenery of age-old oaks, holm-oaks and chestnut-trees. \r\nIt is an ideal place to take a relaxing holiday far from the city din, among the peace of the country, in contact with an endless cultural heritage within a stone's throw from the sea and the most important Tuscan cities of art. \r\nThanks to its high position (500 mt./1640 ft. above sea level) you will enjoy a well-aired summer suitable for walks in the nearby woods, crossed by several paths, catching sight of charming landscapes, lots of medieval villages and Romanesque parish churches. \r\nThere are thousands of paths through Montagnola Senese, which is a hillock in the heart of the Sienese area. During the Middle Ages, these paths were connected to the ancient \"Via Francigena\", the important road link between Rome and the rest of Europe, and this is the reason why in this area there are so many old villages and churches. \r\nPodere Incrociati is surrounded by a natural environment, with tracks that go through the woods and that are ideal for mountain-bike, horse-back riding and trekking excursions, during which, with a little stroke of luck, it is possible to meet fallow-deer, badgers, foxes, porcupines, hedgehoges, dormice. \r\nThe building is composed of a mansion built in 1840 during the Gran Duke Leopoldo II of Tuscany's reign, that has been recently restored, without altering its original characteristics.\r\nThe outside fronts have maintained their originality, while inside the building, most part of the ancient hand-crafted brick floors has been restored, as well as the ceilings with their old wooden beams that had been blackened by the smoke of the mantelpieces, which were once the only source of heating; the old irregular walls and the arched ceilings have been preserved, too. \r\nThe old forniture makes the place comfortable and charming, respecting the ancient rural Sienese traditions. \r\nThe place is particularly sunny thanks to a wide natural meadow that lays south of the building, alternating with the woods, and that is at the guests' disposal. ",
             "price": 715.0,
             "charge_per_extra_person": 0.0,
@@ -37,31 +37,31 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://localhost:3000/api/v1/places/splendida-villa-toscana-"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://localhost:3000/places/splendida-villa-toscana-"
+                "href": "http://www.9flats.com/places/splendida-villa-toscana-"
             },
             {
                 "rel": "photos",
-                "href": "http://localhost:3000/api/v1/places/splendida-villa-toscana-/photos"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://localhost:3000/api/v1/places/splendida-villa-toscana-/prices"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://localhost:3000/api/v1/places/splendida-villa-toscana-/reviews"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://localhost:3000/api/v1/places/splendida-villa-toscana-/calendar/2011/10"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://localhost:3000/api/v1/places/splendida-villa-toscana-/calendar/2011/11"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "ANTONINO R.",
@@ -93,7 +93,7 @@
             "charge_per_extra_person_limit": 2,
             "favorites_count": 1,
             "amenities_list": ["TV", "Kitchen", "Parking", "Fridge/freezer", "Shower/bathtub", "Panoramic view"],
-            "featured_photo_url": "/data/place_photos/photos/66113-1311463845/medium.jpg",
+            "featured_photo_url": "http://img3.9flats.com/place_photos/photos/66113-1311463845/medium.jpg",
             "description": "The Val di Merse is a road designed by Mother Nature whose fame is not attached to the myth of a name. \r\nIn the world of communications where everything must have a label and where you travel following legendary and sometimes inconsistent goals, this land of Siena likes to introduce itself without a visiting card. It prefers a firm handshake and a glance that immediately inspire trust. \r\nIt would be like expecting a formal presentation from someone who wants to say how fine he is inside!\r\nThe essence of a place, as of a person, is a discovery that comes about discreetly and silently. It\u2019s a question of feeling; sometimes it happens in a flash, on other occasions you need more time.\r\nThe Val di Merse has a reserved character and travellers fall in love with it because it knows how to be at once shadowy and sunny. Its intimate purity and the intact solitude in which it lives are highly intriguing and are an exclusive invitation to the traveller who is motivated by discreet curiosity.\r\nThe green Val di Merse, with its water and its spread can be crossed in many ways, but to savor it more, it is advisable to do so by foot or on horseback, in order to experience the journey as an unforgettable experience.\r\nAlso the bike is one of the means that can be exploited to explore the valley, thanks to the many routes available to everyone, even families.",
             "price": 90.0,
             "charge_per_extra_person": 45.0,
@@ -103,31 +103,31 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://localhost:3000/api/v1/places/toscana-siena-e-la-val-di-merse-"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://localhost:3000/places/toscana-siena-e-la-val-di-merse-"
+                "href": "http://www.9flats.com/places/toscana-siena-e-la-val-di-merse-"
             },
             {
                 "rel": "photos",
-                "href": "http://localhost:3000/api/v1/places/toscana-siena-e-la-val-di-merse-/photos"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://localhost:3000/api/v1/places/toscana-siena-e-la-val-di-merse-/prices"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://localhost:3000/api/v1/places/toscana-siena-e-la-val-di-merse-/reviews"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://localhost:3000/api/v1/places/toscana-siena-e-la-val-di-merse-/calendar/2011/10"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://localhost:3000/api/v1/places/toscana-siena-e-la-val-di-merse-/calendar/2011/11"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "Ilaria B.",
@@ -159,7 +159,7 @@
             "charge_per_extra_person_limit": null,
             "favorites_count": 0,
             "amenities_list": ["TV", "Heating", "Kitchen", "Pool", "Parking", "Washer", "Smoking allowed", "Family/Kid friendly", "Pets allowed", "Indoor Fireplaces", "Suitable for Events", "Balcony", "Dishwasher", "Phone", "Garden", "Fridge/freezer", "Shower/bathtub", "Baby crib", "Final cleaning"],
-            "featured_photo_url": "/data/place_photos/photos/99563-1310400082/medium.jpg",
+            "featured_photo_url": "http://img2.9flats.com/place_photos/photos/99563-1310400082/medium.jpg",
             "description": "\"PODERE INCROCIATI\" rises in the heart of Montagnola Senese, just 15 km/9 miles far from Siena and 75 km/47,5 miles far from Florence, among the greenery of age-old oaks, holm-oaks and chestnut-trees.\r\nIt is an ideal place to take a relaxing holiday far from the city din, among the peace of the country, in contact with an endless cultural heritage within a stone's throw from the sea and the most important Tuscan cities of art.\r\nThanks to its high position (500 mt./1640 ft. above sea level) you will enjoy a well-aired summer suitable for walks in the nearby woods, crossed by several paths, catching sight of charming landscapes, lots of medieval villages and Romanesque parish churches.\r\nThere are thousands of paths through Montagnola Senese, which is a hillock in the heart of the Sienese area. During the Middle Ages, these paths were connected to the ancient \"Via Francigena\", the important road link between Rome and the rest of Europe, and this is the reason why in this area there are so many old villages and churches.\r\nPodere Incrociati is surrounded by a natural environment, with tracks that go through the woods and that are ideal for mountain-bike, horse-back riding and trekking excursions, during which, with a little stroke of luck, it is possible to meet fallow-deer, badgers, foxes, porcupines, hedgehoges, dormice.\r\n\r\nThe building is composed of a mansion built in 1840 during the Gran Duke Leopoldo II of Tuscany's reign, that has been recently restored, without altering its original characteristics.\r\nThe outside fronts have maintained their originality, while inside the building, most part of the ancient hand-crafted brick floors has been restored, as well as the ceilings with their old wooden beams that had been blackened by the smoke of the mantelpieces, which were once the only source of heating; the old irregular walls and the arched ceilings have been preserved, too.\r\nThe old forniture makes the place comfortable and charming, respecting the ancient rural Sienese traditions.\r\nThe place is particularly sunny thanks to a wide natural meadow that lays south of the building, alternating with the woods, and that is at the guests' disposal. \r\n",
             "price": 550.0,
             "charge_per_extra_person": 0.0,
@@ -169,31 +169,31 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://localhost:3000/places/podere-incrociati-"
+                "href": "http://www.9flats.com/places/podere-incrociati-"
             },
             {
                 "rel": "photos",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-/photos"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-/prices"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-/reviews"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-/calendar/2011/10"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-/calendar/2011/11"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "ANTONINO R.",
@@ -225,7 +225,7 @@
             "charge_per_extra_person_limit": null,
             "favorites_count": 0,
             "amenities_list": ["TV", "Heating", "Kitchen", "Pool", "Parking", "Washer", "Smoking allowed", "Family/Kid friendly", "Pets allowed", "Hot Tub", "Indoor Fireplaces", "Suitable for Events", "Balcony", "Dishwasher", "Phone", "Garden", "Fridge/freezer", "Shower/bathtub", "Baby crib", "Final cleaning"],
-            "featured_photo_url": "/data/place_photos/photos/98346-1310314677/medium.jpg",
+            "featured_photo_url": "http://img2.9flats.com/place_photos/photos/98346-1310314677/medium.jpg",
             "description": "\"PODERE INCROCIATI\" rises in the heart of Montagnola Senese, just 15 km/9 miles far from Siena and 75 km/47,5 miles far from Florence, among the greenery of age-old oaks, holm-oaks and chestnut-trees. \r\nIt is an ideal place to take a relaxing holiday far from the city din, among the peace of the country, in contact with an endless cultural heritage within a stone's throw from the sea and the most important Tuscan cities of art. \r\nThanks to its high position (500 mt./1640 ft. above sea level) you will enjoy a well-aired summer suitable for walks in the nearby woods, crossed by several paths, catching sight of charming landscapes, lots of medieval villages and Romanesque parish churches. \r\nThere are thousands of paths through Montagnola Senese, which is a hillock in the heart of the Sienese area. During the Middle Ages, these paths were connected to the ancient \"Via Francigena\", the important road link between Rome and the rest of Europe, and this is the reason why in this area there are so many old villages and churches. \r\nPodere Incrociati is surrounded by a natural environment, with tracks that go through the woods and that are ideal for mountain-bike, horse-back riding and trekking excursions, during which, with a little stroke of luck, it is possible to meet fallow-deer, badgers, foxes, porcupines, hedgehoges, dormice. \r\n\r\nThe building is composed of a mansion built in 1840 during the Gran Duke Leopoldo II of Tuscany's reign, that has been recently restored, without altering its original characteristics.\r\nThe outside fronts have maintained their originality, while inside the building, most part of the ancient hand-crafted brick floors has been restored, as well as the ceilings with their old wooden beams that had been blackened by the smoke of the mantelpieces, which were once the only source of heating; the old irregular walls and the arched ceilings have been preserved, too. \r\nThe old forniture makes the place comfortable and charming, respecting the ancient rural Sienese traditions. \r\nThe place is particularly sunny thanks to a wide natural meadow that lays south of the building, alternating with the woods, and that is at the guests' disposal. ",
             "price": 420.0,
             "charge_per_extra_person": 0.0,
@@ -235,31 +235,31 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-casa-indipendente"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://localhost:3000/places/podere-incrociati-casa-indipendente"
+                "href": "http://www.9flats.com/places/podere-incrociati-casa-indipendente"
             },
             {
                 "rel": "photos",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-casa-indipendente/photos"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-casa-indipendente/prices"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-casa-indipendente/reviews"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-casa-indipendente/calendar/2011/10"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://localhost:3000/api/v1/places/podere-incrociati-casa-indipendente/calendar/2011/11"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "ANTONINO R.",
@@ -291,7 +291,7 @@
             "charge_per_extra_person_limit": 2,
             "favorites_count": 2,
             "amenities_list": ["TV", "Heating", "Breakfast", "Pool", "Parking", "Family/Kid friendly", "Pets allowed", "Garden", "Shower/bathtub", "Baby crib", "Final cleaning", "Panoramic view"],
-            "featured_photo_url": "/data/place_photos/photos/67663-1311472469/medium.JPG",
+            "featured_photo_url": "http://img2.9flats.com/place_photos/photos/67663-1311472469/medium.JPG",
             "description": "Tipical ancient tuscan farmhouse, our setting is ideal for a relaxing holiday.\r\nOur house is located just outside the Corsignano hamlet, only 7 kilometers far from Siena city centre, on the touristic route of Chianti Classico wine. Only 3 km from us is one of the most beautiful Chartreuse of Italy, the one of Pontignano, and in 30 km you will find important artistic and hystorical towns of Tuscany (Siena, San Gimignano, Volterra, Pienza, Montalcino, Castellina, Radda e Gaiole in Chianti). Florence is 55 Km far from Agriturismo Amina.\r\nWe offer five spacious and comfortable double bedrooms, fully-restored and furnished in very good taste. They are 25 mq large, with private bathroom, large king-size bed, sofa-bed, satellite Tv, small fridge, writing desk and terrace with table and chairs. Furthermore we place at guests disposal and free of charge: a panoramic swimming pool (13 X 5,5 m) with solarium, private covered parking, breakfast, cot for baby on demand, barbecue and an antique wood oven.\r\nThe price includes the breakfast, and children under 5 years old sleep free of charge.",
             "price": 85.0,
             "charge_per_extra_person": 25.0,
@@ -301,31 +301,31 @@
             "place_type": "Private room",
             "links": [{
                 "rel": "self",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://localhost:3000/places/agriturismo-amina"
+                "href": "http://www.9flats.com/places/agriturismo-amina"
             },
             {
                 "rel": "photos",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina/photos"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina/prices"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina/reviews"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina/calendar/2011/10"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina/calendar/2011/11"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "Agriturismo Amina M.",
@@ -357,41 +357,41 @@
             "charge_per_extra_person_limit": 4,
             "favorites_count": 0,
             "amenities_list": ["TV", "Heating", "Kitchen", "Pool", "Washer", "Family/Kid friendly", "Handicap accessible", "Pets allowed", "Dishwasher", "Garden", "Fridge/freezer", "Shower/bathtub", "Baby crib", "Panoramic view"],
-            "featured_photo_url": "/data/place_photos/photos/80758-1308743129/medium.jpg",
+            "featured_photo_url": "http://img1.9flats.com/place_photos/photos/80758-1308743129/medium.jpg",
             "description": "The villa is a new structure, with typical Tuscan cotto flooring. The large windows look out on the hilly landscape with Mount Amiata as a backdrop.\r\n\r\nThe well-lit living room is furnished with easy chairs, sofa bed and television. Dining room and kitchen are accessed from the living room and are well-equipped, including dishwasher and iron.\r\n\r\nThe two bedrooms can sleep from four to five people with the possibility for additional baby-bed. The bathroom is spacious with shower and washing machine.\r\n\r\nIn front there is a private yard with comfortable table and chairs in wrought iron for relaxing breakfasts and dinners in the open air.\r\n\r\nMurlo is a small town located in the territory of antique Etruria, land of etruscans. Within walking distance it is possible to visit the etruscan museum and its related excavations of international recognition.\r\n\r\nThey are the perfect place for a relaxing vacation in contact with nature with frequent sightings of the animals that populate it. Villa Righino and La Casina are excellent for family vacations, offering culture, nature, and other recreational opportunities. Mountain-bike tours and trails for hiking are accessible in the immediate vicinity, as are ranches open to the public for amazing excursions on horseback.",
-            "price": 94.12,
-            "charge_per_extra_person": 23.53,
+            "price": 80.0,
+            "charge_per_extra_person": 20.0,
             "content_language": "en",
             "country": "Italy",
             "category": "Apartment",
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://localhost:3000/api/v1/places/villa-righino"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://localhost:3000/places/villa-righino"
+                "href": "http://www.9flats.com/places/villa-righino"
             },
             {
                 "rel": "photos",
-                "href": "http://localhost:3000/api/v1/places/villa-righino/photos"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://localhost:3000/api/v1/places/villa-righino/prices"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://localhost:3000/api/v1/places/villa-righino/reviews"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://localhost:3000/api/v1/places/villa-righino/calendar/2011/10"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://localhost:3000/api/v1/places/villa-righino/calendar/2011/11"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "Lucia C.",
@@ -423,7 +423,7 @@
             "charge_per_extra_person_limit": 2,
             "favorites_count": 1,
             "amenities_list": ["Wifi (Wireless LAN)", "TV", "Heating", "Kitchen", "Breakfast", "Pool", "Parking", "Washer", "Family/Kid friendly", "Indoor Fireplaces", "Garden", "Fridge/freezer", "Shower/bathtub", "Baby crib", "Final cleaning", "Panoramic view"],
-            "featured_photo_url": "/data/place_photos/photos/140770-1313499924/medium.jpg",
+            "featured_photo_url": "http://img1.9flats.com/place_photos/photos/140770-1313499924/medium.jpg",
             "description": " Our family is pleased to welcome into our ancient Tuscan farmhouse, nestled in the green Montagnola. \r\n Each apartment is 70 m\u00b2, two bedrooms, a bathroom, a lounge and a kitchenette. Inside there are chairs, sofas, satellite TV, cooking facilities, washing machine and cupboards. \r\n\r\n",
             "price": 80.0,
             "charge_per_extra_person": 25.0,
@@ -433,31 +433,31 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://localhost:3000/api/v1/places/tre-madonne-del-lago"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://localhost:3000/places/tre-madonne-del-lago"
+                "href": "http://www.9flats.com/places/tre-madonne-del-lago"
             },
             {
                 "rel": "photos",
-                "href": "http://localhost:3000/api/v1/places/tre-madonne-del-lago/photos"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://localhost:3000/api/v1/places/tre-madonne-del-lago/prices"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://localhost:3000/api/v1/places/tre-madonne-del-lago/reviews"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://localhost:3000/api/v1/places/tre-madonne-del-lago/calendar/2011/10"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://localhost:3000/api/v1/places/tre-madonne-del-lago/calendar/2011/11"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "Antonello B.",
@@ -479,7 +479,7 @@
             "district": "localit\u00e0 Corsignano (Vagliagli)",
             "number_of_bathrooms": 1,
             "minimum_nights": 2,
-            "maximum_nights": null,
+            "maximum_nights": 365,
             "bed_type": "Real bed",
             "size": 25.0,
             "house_rules": "",
@@ -489,7 +489,7 @@
             "charge_per_extra_person_limit": 2,
             "favorites_count": 0,
             "amenities_list": ["TV", "Heating", "Breakfast", "Pool", "Parking", "Family/Kid friendly", "Pets allowed", "Indoor Fireplaces", "Garden", "Fridge/freezer", "Shower/bathtub", "Baby crib", "Final cleaning", "Panoramic view"],
-            "featured_photo_url": "/data/place_photos/photos/136641-1313080803/medium.JPG",
+            "featured_photo_url": "http://img3.9flats.com/place_photos/photos/136641-1313080803/medium.JPG",
             "description": "Our house is located just outside the Corsignano hamlet, only 7 kilometers far from Siena city centre, on the touristic route of Chianti Classico wine. Only 3 km from us is one of the most beautiful Chartreuse of Italy, the one of Pontignano, and in 30 km you will find important artistic and hystorical towns of Tuscany (Siena, San Gimignano, Volterra, Pienza, Montalcino, Castellina, Radda e Gaiole in Chianti). Florence is 55 Km far from Agriturismo Amina.\r\nWe offer five spacious and comfortable bedrooms, fully-restored and furnished in very good taste. They are 25 mq large, with private bathroom, large king-size bed, sofa-bed, satellite Tv, small fridge, writing desk and terrace with table and chairs. Furthermore we place at guests disposal and free of charge: a panoramic swimming pool (13 X 5,5 m) with solarium, private covered parking, breakfast, cot for baby on demand, barbecue and an antique wood oven.\r\nThe price includes the breakfast, and children under 5 years old sleep free of charge.\r\n",
             "price": 85.0,
             "charge_per_extra_person": 25.0,
@@ -499,31 +499,31 @@
             "place_type": "Private room",
             "links": [{
                 "rel": "self",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina-2"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://localhost:3000/places/agriturismo-amina-2"
+                "href": "http://www.9flats.com/places/agriturismo-amina-2"
             },
             {
                 "rel": "photos",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina-2/photos"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina-2/prices"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina-2/reviews"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina-2/calendar/2011/10"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://localhost:3000/api/v1/places/agriturismo-amina-2/calendar/2011/11"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "Agriturismo Amina M.",
@@ -533,80 +533,80 @@
     },
     {
         "place": {
-            "name": "Appartamento LA MAGNOLIA",
-            "city": "asciano - siena",
-            "slug": "appartamento-la-magnolia",
-            "zipcode": "53041",
+            "name": "La Colombaia",
+            "city": "Poggibonsi Siena",
+            "slug": "la-colombaia",
+            "zipcode": "53036",
             "number_of_beds": 4,
-            "number_of_bedrooms": 2,
+            "number_of_bedrooms": 1,
             "currency": "EUR",
-            "lat": 43.293812,
-            "lng": 11.4111249,
+            "lat": 43.4202,
+            "lng": 11.1864,
             "district": "",
             "number_of_bathrooms": 1,
-            "minimum_nights": 3,
+            "minimum_nights": 2,
             "maximum_nights": 365,
             "bed_type": "Real bed",
-            "size": null,
+            "size": 60.0,
             "house_rules": "",
             "pets_around": false,
             "bathroom_type": "Private",
             "cleaning_fee": null,
-            "charge_per_extra_person_limit": null,
+            "charge_per_extra_person_limit": 1,
             "favorites_count": 0,
-            "amenities_list": ["TV", "Heating", "Air Conditioning", "Kitchen", "Pool", "Parking", "Washer", "Smoking allowed", "Family/Kid friendly", "Pets allowed", "Garden", "Fridge/freezer", "Baby crib", "Final cleaning", "Panoramic view"],
-            "featured_photo_url": "/data/place_photos/photos/156439-1314794154/medium.jpeg",
-            "description": "Sleeps 4. Apartment with kitchen-living area with sofa, 1 bath with shower, bedroom with double bed and balcony with view,and bedroom with two twin beds (unitable to form a double bed) with view terrace\r\n\r\n\r\nThe Santa Caterina farmhouse, dating back to 1900 but recently renovated, is subdivided into 11 apartments, 6 of which are located on the ground floor and 5 on the first floor, access to which is gained from a central staircase. \r\nEach apartment is furnished in a simple country style and is furnished with everything you need for a relaxing holiday. Each apartment has independent heating*, air-conditioning*, a spacious and sunny kitchen-living area (equipped with refrigerator/freezer, small meal-warmer, teapot, Italian coffee pot, and kitchen linens). \r\nThe spacious bedrooms are furnished either with a king-sized bed or two twin beds which can be united. All of the beds boast orthopedic springs and mattresses for your complete comfort. All of the bathrooms have box showers and hair-dryers. \r\n\r\nUpon your arrival, you will find the apartments ready with linens for both the bedrooms (sheets, pillowcases, and comforter), and bathrooms (for each person, 1 large, medium, and small towel). The linens are changed weekly but for a small additional charge, more frequent changes may be arranged upon request*. Some of the apartments on the first floor have a balcony or terrace with view equipped with a table and chairs, an ideal spot for enjoying local culinary delights in summer. Guests in the other apartments are welcome to enjoy the garden, which is also equipped with tables and chairs. \r\n\r\nEach apartment on the ground floor has a convenient independent entrance with a private outdoor area for relaxing furnished with chairs, a table, and an umbrella. Ample and convenient parking is available. \r\n\r\nThe holiday house boasts lovely green grounds covering an area of two hectares, including a private parking lot, barbecue area, and small lake. The pool (8 x 12 metri) has a built in whirlpool area and plenty of room with lounge chairs for sun-bathing. Both are open, weather permitting, from 1 june to 30 September (ask for further information at the reception upon arrival). Use of the facilities is free of charge for all guests of the property.\r\n\r\nPET POLICY: \r\nWe require a 25 euro total fee for each dog or cat who stays with us (this fee is valid for stays from a minimum of 1 night to a maximum of 1 week). For longer stays, an additional 25 euro fee will be required. We remind our guests that in common areas, dogs must always be on leashes, and if it is possible that they could bite, they must also be muzzled. We ask that you please not allow pets to climb on sofas and beds, and that you supply your own pet bedding, food and drink. Pet bowls are available upon request. There are appropriate areas nearby where dogs can be walked and may relieve themselves in safety and comfort. Pets are welcome to have a swim in our small lake.\r\n\r\nBREAKFAST on request: \r\n7,00 euros per person, served from 8:00 - 9:30. Ours is an abundant buffet breakfast served in the breakfast room during winter and in a furnished area outdoors during the summer months. You may choose among croissants, corn-flakes, homemade cakes, yogurt, rolls, butter and jam, various fruit juices, espresso or American-style coffee, tea, milk, hot chocolate and cappuccino. To enjoy wonderful lunches and dinners based on local specialties, we encourage you to try the excellent restaurants in our area (8 km, 10 min by car) where our guests enjoy a special welcome and discounts. For details, see the section entitled \u201cLocal Recommendations\u201d.\r\n\r\nHeating costs are not included in the price.\r\n",
-            "price": 144.0,
-            "charge_per_extra_person": 0.0,
+            "amenities_list": ["TV", "Heating", "Kitchen", "Pool", "Parking", "Washer", "Family/Kid friendly", "Garden", "Fridge/freezer", "Shower/bathtub", "Baby crib", "Panoramic view"],
+            "featured_photo_url": "http://img2.9flats.com/place_photos/photos/67349-1311470841/medium.jpg",
+            "description": " Apartment renovated in 2005, according to the traditions of Tuscany. With a magnificent view over the Chianti hills. Independent flat and tranquil, to arrangements which has a large garden, conservatory, swimming pool (open seasonally), solarium. An ideal place to relax and spend a nice holiday in Tuscany, is located a few km from the Fi-Si and close to major tourist attractions of the region: San Gimignano, Florence, Siena, Volterra ... \" \r\n\r\n",
+            "price": 100.0,
+            "charge_per_extra_person": 50.0,
             "content_language": "en",
             "country": "Italy",
             "category": "Apartment",
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://localhost:3000/api/v1/places/appartamento-la-magnolia"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://localhost:3000/places/appartamento-la-magnolia"
+                "href": "http://www.9flats.com/places/la-colombaia"
             },
             {
                 "rel": "photos",
-                "href": "http://localhost:3000/api/v1/places/appartamento-la-magnolia/photos"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://localhost:3000/api/v1/places/appartamento-la-magnolia/prices"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://localhost:3000/api/v1/places/appartamento-la-magnolia/reviews"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://localhost:3000/api/v1/places/appartamento-la-magnolia/calendar/2011/10"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://localhost:3000/api/v1/places/appartamento-la-magnolia/calendar/2011/11"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
-                "name": "mery m.",
-                "slug": "mery-m"
+                "name": "Nicola  G.",
+                "slug": "nicola-g-0"
             }
         }
     }],
     "links": [{
         "rel": "self",
-        "href": "http://localhost:3000/api/v1/places?search[amenities]=&search[currency]=USD&search[end_date]=&search[exclude_place_id]=&search[lat]=43.3186614&search[lng]=11.3305135&search[number_of_bathrooms]=0&search[number_of_bedrooms]=0&search[number_of_beds]=3&search[page]=1&search[place_type]=&search[price_max]=&search[price_min]=&search[query]=siena&search[radius]=20&search[sort_by]=top_ranking&search[start_date]="
+        "href": "http://api.9flats.com/api/v1/places?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S&search[amenities]=&search[bb_ne]=&search[bb_sw]=&search[currency]=USD&search[end_date]=&search[exclude_place_id]=&search[lat]=43.3186614&search[lng]=11.3305135&search[number_of_bathrooms]=0&search[number_of_bedrooms]=0&search[number_of_beds]=3&search[page]=1&search[place_type]=&search[price_max]=&search[price_min]=&search[query]=siena&search[radius]=20&search[sort_by]=top_ranking&search[start_date]=&search[woeid]="
     },
     {
         "rel": "full",
-        "href": "http://localhost:3000/searches?search[amenities]=&search[currency]=USD&search[end_date]=&search[exclude_place_id]=&search[lat]=43.3186614&search[lng]=11.3305135&search[number_of_bathrooms]=0&search[number_of_bedrooms]=0&search[number_of_beds]=3&search[page]=1&search[place_type]=&search[price_max]=&search[price_min]=&search[query]=siena&search[radius]=20&search[sort_by]=top_ranking&search[start_date]="
+        "href": "http://www.9flats.com/searches?search[amenities]=&search[bb_ne]=&search[bb_sw]=&search[currency]=USD&search[end_date]=&search[exclude_place_id]=&search[lat]=43.3186614&search[lng]=11.3305135&search[number_of_bathrooms]=0&search[number_of_bedrooms]=0&search[number_of_beds]=3&search[page]=1&search[place_type]=&search[price_max]=&search[price_min]=&search[query]=siena&search[radius]=20&search[sort_by]=top_ranking&search[start_date]=&search[woeid]="
     },
     {
         "rel": "next_page",
-        "href": "http://localhost:3000/api/v1/places?search[amenities]=&search[currency]=USD&search[end_date]=&search[exclude_place_id]=&search[lat]=43.3186614&search[lng]=11.3305135&search[number_of_bathrooms]=0&search[number_of_bedrooms]=0&search[number_of_beds]=3&search[page]=2&search[place_type]=&search[price_max]=&search[price_min]=&search[query]=siena&search[radius]=20&search[sort_by]=top_ranking&search[start_date]="
+        "href": "http://api.9flats.com/api/v1/places?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S&search[amenities]=&search[bb_ne]=&search[bb_sw]=&search[currency]=USD&search[end_date]=&search[exclude_place_id]=&search[lat]=43.3186614&search[lng]=11.3305135&search[number_of_bathrooms]=0&search[number_of_bedrooms]=0&search[number_of_beds]=3&search[page]=2&search[place_type]=&search[price_max]=&search[price_min]=&search[query]=siena&search[radius]=20&search[sort_by]=top_ranking&search[start_date]=&search[woeid]="
     }]
 }

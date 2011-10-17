@@ -63,11 +63,29 @@ module Nineflats
         "&search[#{key}]=#{value}"
       end
       
-      result = Helpers.get_data(base_url + "/places?client_id=#{Nineflats::Base.client_app_key}" + queries.join)
+      search_url = base_url + "/places?client_id=#{Nineflats::Base.client_app_key}" + queries.join
       
-      result["places"].collect do |place_json|
+      Place.search_result(search_url)
+    end
+
+    def self.search_result(search_url)
+      json = Helpers.get_data(search_url)
+      
+      places = json["places"].collect do |place_json|
         Place.new(place_json)
       end
+      
+      result = Nineflats::PaginatedArray.new(places)
+      
+      result.total_entries = json["total_entries"]
+      result.total_pages   = json["total_pages"]
+      result.current_page  = json["current_page"]
+      result.per_page      = json["per_page"]
+      
+      result.self_url      = Nineflats::Base.object_link("self", json["links"])
+      result.full_url      = Nineflats::Base.object_link("full", json["links"])
+      result.next_page_url = Nineflats::Base.object_link("next_page", json["links"])
+      result
     end
 
     def self.fetch(slug, lang)
