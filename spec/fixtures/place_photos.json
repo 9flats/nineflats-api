@@ -155,5 +155,9 @@
         }
     }
   ],
-  "total_entries": 22
+  "total_entries": 22,
+  "links": [{
+      "rel": "self",
+      "href": "http://api.9flats.com/api/v1/places/harmony-villas-close-to-the-sea/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+  }]
 }

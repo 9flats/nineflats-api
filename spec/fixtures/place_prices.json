@@ -21,5 +21,9 @@
         "weekend_night_price": 75.0
       }
     }]
-  }
+  },
+  "links": [{
+      "rel": "self",
+      "href": "http://api.9flats.com/api/v1/places/harmony-villas-close-to-the-sea/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+  }]
 }

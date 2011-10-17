@@ -14,50 +14,50 @@
             "number_of_bathrooms": 1,
             "minimum_nights": 3,
             "maximum_nights": 365,
-            "bed_type": "Echtes Bett",
+            "bed_type": "Real bed",
             "size": 120.0,
             "house_rules": "",
             "pets_around": false,
-            "bathroom_type": "Privat",
+            "bathroom_type": "Private",
             "cleaning_fee": null,
             "charge_per_extra_person_limit": null,
             "favorites_count": 2,
-            "amenities_list": ["Heizung", "K\u00fcche", "Waschmaschine", "Familien-/Kinderfreundlich", "Kamin", "Geschirrsp\u00fcler", "Garten", "K\u00fchlschrank/Gefriertruhe", "Dusche/Badewanne", "Babybett"],
-            "featured_photo_url": "http://img2.9flats.com/place_photos/photos/53784-1311404477/medium.jpg",
-            "description": "Bienvenue dans notre maison de charme!\r\n\r\nDas sehr ruhige Haus (ca. 120 m\u00b2) bietet bis zu 6 (bzw. bis zu 9) Personen (keine Haustiere) Platz, au\u00dfer den Schlafzimmern gibt es ein Wohnzimmer mit gr. Kamin, eine voll ausgestattete K\u00fcche (u.a. Geschirrsp\u00fcler, Waschmaschine) und 1 Bad mit Dusche und 2 Waschbecken (bzw. 3), WC separat (bzw. noch 1 auf der Etage), Zugang zum Garten \u00fcber Wohnzimmer und K\u00fcche.\r\n\r\nAm Dorfrand unterhalb des imposanten Caroux-H\u00f6henzuges (1000 m) zwischen den beiden Schluchten von H\u00e9ric und Colombi\u00e8res mit traumhaftem Blick auf das Orb-Tal gelegen, ist das Haus der ideale Ausgangspunkt f\u00fcr leichte bis schwere Wanderungen durch Weinfelder, Kastanienw\u00e4lder oder auch die heide\u00e4hnliche H\u00f6henlandschaft. Ob Schwimmen in den nat\u00fcrlichen Felsbecken der umgebenden Schluchten, den Seen auf dem Hochplateau oder im Meer (35 km), Radfahren, Reiten, Kanu/Kajak oder Golfen, diese herrliche Gegend bietet Erholung und Abwechslung. Weinliebhaber kommen bpsw. in St. Chinian oder Faug\u00e8res auf ihre Kosten, die raffinierte regionale K\u00fcche ist an vielen Orten zu genie\u00dfen.\r\n",
+            "amenities_list": ["Heating", "Kitchen", "Washer", "Family/Kid friendly", "Indoor Fireplaces", "Dishwasher", "Garden", "Fridge/freezer", "Shower/bathtub", "Baby crib"],
+            "featured_photo_url": "http://img3.9flats.com/place_photos/photos/53784-1311404477/medium.jpg",
+            "description": " Bienvenue dans notre maison de charme! \n\n The very quiet house (120 m\u00b2) offers up to 6 (or up to 9) people (no pets) space, except the bedrooms there is a living room with large fireplace, a fully equipped kitchen (including dishwasher, washing machine) and 1 bathroom with shower and 2 sinks (or 3), separate toilet (or even one in the hallway), access to the garden via the living room and kitchen. \n\n Situated on the edge of the village below the imposing Caroux-ridge (1000 m) between the two gorges of H\u00e9ric and Colombi\u00e8res with stunning views of the Orb valley, the house is the ideal starting point for light to heavy hiking through vineyards, chestnut forests and the heath-like level landscape . Whether swimming in natural rock pools offers the surrounding valleys, the lakes on the plateau or in the sea (35 km), cycling, horseback riding, canoeing / kayaking or golf, this wonderful area recreation and diversion. Wine lovers will bpsw. St. Chinian Faug\u00e8res or at their expense, the sophisticated regional cuisine to be enjoyed in many places. \n\n",
             "price": 100.0,
             "charge_per_extra_person": 0.0,
-            "content_language": "de",
-            "country": "Frankreich",
-            "category": "Haus",
-            "place_type": "Gesamte Unterkunft",
+            "content_language": "en",
+            "country": "France",
+            "category": "House",
+            "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/de/api/v1/places/maison-de-charme?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://www.9flats.com/de/places/maison-de-charme"
+                "href": "http://www.9flats.com/places/maison-de-charme"
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/de/api/v1/places/maison-de-charme/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/de/api/v1/places/maison-de-charme/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/de/api/v1/places/maison-de-charme/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/de/api/v1/places/maison-de-charme/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/de/api/v1/places/maison-de-charme/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "Aline P.",
@@ -80,50 +80,50 @@
             "number_of_bathrooms": 1,
             "minimum_nights": 2,
             "maximum_nights": 365,
-            "bed_type": "Echtes Bett",
+            "bed_type": "Real bed",
             "size": 55.0,
             "house_rules": "",
             "pets_around": false,
-            "bathroom_type": "Privat",
+            "bathroom_type": "Private",
             "cleaning_fee": null,
             "charge_per_extra_person_limit": 2,
             "favorites_count": 40,
-            "amenities_list": ["Internet", "WLAN", "TV", "Heizung", "K\u00fcche", "Geeignet f\u00fcr Veranstaltungen", "Garten", "K\u00fchlschrank/Gefriertruhe", "Dusche/Badewanne", "Endreinigung"],
-            "featured_photo_url": "http://img1.9flats.com/place_photos/photos/25367-1311285208/medium.jpg",
-            "description": "Lagebeschreibung:\r\nDie Wohnung liegt in der N\u00e4he des Schanzenviertels . Restaurants und Bars sind in unmittelbaren N\u00e4hen.\r\nSie befindet sich \u00dcber einer Werkstatt in einem ruhigen Hinterhof und hat den Charm einer 120jahre alten\r\nRemise.\r\nAusstattung:\r\nDer Loftraum hat 55qm, hat eine offene K\u00fcchenzeile mit einem gro\u00dfen Gasherd. Ein Doppelbett, Sofa, sowie einem offenen Badbereich mit Waschbecken und Badewanne. Die Toilette ist an das darunter gelegene B\u00fcro angeschlossen\r\nAu\u00dfenbereich:\r\nEin Innenhof steht zur Verf\u00fcgung. Hier kann auch gegrillt werden\r\nBesonderes:\r\nIm unteren Teil des Geb\u00e4udes befindet sich ein kleines Gewerbe mit einem B\u00fcroraum, sowie einem show room f\u00fcr M\u00f6belst\u00fccke. Ansonsten befindet sich die Remise in einer sehr ruhigen und nachbarschaftlich freundlichen Lage. Bei Bedarf k\u00f6nnen Fahrr\u00e4der mit angemietet werden.\r\nAllgemeine Informationen\r\nInternationale G\u00e4ste sind sehr Willkommen. ",
+            "amenities_list": ["Internet", "Wifi (Wireless LAN)", "TV", "Heating", "Kitchen", "Suitable for Events", "Garden", "Fridge/freezer", "Shower/bathtub", "Final cleaning"],
+            "featured_photo_url": "http://img3.9flats.com/place_photos/photos/25367-1311285208/medium.jpg",
+            "description": " Location Description: \r\n It&#39;s located near the hill district. Restaurants and bars are nearby. \r\n It is located above a garage in a quiet back yard and has the charm of an old 120jahre \r\n Shed. \r\n Facilities: \r\n The Loftraum has 55 square meters, has a large open kitchen with a gas stove. A double bed, sofa, and an open bathroom area with sink and bathtub. The toilet is connected to the office below it \r\n Inside: \r\n A patio is available. This may also be grilled \r\n Special features: \r\n In the lower part of the building is a small industrial (furniture). Otherwise, the coach house is in a very peaceful and neighborly friendly location. \r\n General Information \r\n International guests are very welcome. \r\n\r\n",
             "price": 100.0,
             "charge_per_extra_person": 15.0,
-            "content_language": "de",
-            "country": "Deutschland",
-            "category": "Wohnung",
-            "place_type": "Gesamte Unterkunft",
+            "content_language": "en",
+            "country": "Germany",
+            "category": "Apartment",
+            "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/de/api/v1/places/55qm-loftwohnung?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://www.9flats.com/de/places/55qm-loftwohnung"
+                "href": "http://www.9flats.com/places/55qm-loftwohnung"
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/de/api/v1/places/55qm-loftwohnung/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/de/api/v1/places/55qm-loftwohnung/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/de/api/v1/places/55qm-loftwohnung/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/de/api/v1/places/55qm-loftwohnung/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/de/api/v1/places/55qm-loftwohnung/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "Johannes M.",
@@ -146,50 +146,50 @@
             "number_of_bathrooms": 1,
             "minimum_nights": 1,
             "maximum_nights": 365,
-            "bed_type": "Echtes Bett",
+            "bed_type": "Real bed",
             "size": 32.0,
             "house_rules": "Bei der Wohnung handelt es sich um ein Nichtraucher-Apartment. Das Rauchen ist nur auf der Loggia gestattet.",
             "pets_around": false,
-            "bathroom_type": "Privat",
+            "bathroom_type": "Private",
             "cleaning_fee": null,
             "charge_per_extra_person_limit": 1,
             "favorites_count": 4,
-            "amenities_list": ["WLAN", "TV", "Heizung", "K\u00fcche", "Aufzug im Geb\u00e4ude", "Balkon", "K\u00fchlschrank/Gefriertruhe", "Dusche/Badewanne", "Endreinigung"],
+            "amenities_list": ["Wifi (Wireless LAN)", "TV", "Heating", "Kitchen", "Elevator in building", "Balcony", "Fridge/freezer", "Shower/bathtub", "Final cleaning"],
             "featured_photo_url": "http://img2.9flats.com/place_photos/photos/42637-1311357786/medium.JPG",
-            "description": "Das modern eingerichtete Nichtraucher-Apartment in zentraler Lage wurde Anfang 2011 komplett saniert und steht nun f\u00fcr Ihren Stadturlaub oder Wochenendausflug bereit.\r\n\r\nMaximale Personenanzahl: 3 Personen \r\nGesamtwohnfl\u00e4che in m\u00b2: 32 m\u00b2 \r\nAnzahl der R\u00e4ume: 1 Zimmer-Wohnung \r\nEntfernung zum Stadtzentrum: 0,6 km \r\nEntfernung zum Flughafen: 6 km \r\nEntfernung zum Bahnhof: 0,3 km \r\nN\u00e4chster Supermarkt\r\n\r\nLAGEBESCHREIBUNG \r\nDas Apartment liegt nur 300 m vom Hauptbahnhof entfernt, in einer Seitenstra\u00dfe zwischen Bahnhof und Zentrum und befindet sich damit in zentraler Lage, von wo aus alles Sehenswerte fu\u00dfl\u00e4ufig erreicht werden kann. Die Wohnung befindet sich im 5. Stock eines gepflegten Geb\u00e4udes, mit Fahrstuhl.\r\nDie Innenstadt mit Marktplatz, die Altstadt, die Bremen Arena, das Kongresszentrum mit allen Messen, Museen, Theater und Musical sind schnell zu erreichen. Der allj\u00e4hrlich stattfindende Bremer Freimarkt und der bekannte Bremer Weihnachtsmarkt sind von hier aus f\u00f6rmlich zu riechen. Auch das Weserstadion ist mit der Stra\u00dfenbahn schnell erreicht. \r\n\r\nAUSSTATTUNG\r\nDie helle Wohnung verf\u00fcgt \u00fcber einen Eingangsbereich, einen Wohn-/Schlafraum, eine kleine neue Einbauk\u00fcche, ein neues Duschbad sowie eine kleine Loggia, auf der geraucht werden darf.\r\nDie Wohnung wurde mit hochwertigem Laminat und Fliesen ausgestattet.\r\n\r\nIm Wohn-/Schlafraum befindet sich eine Sitzecke, ein E\u00dfplatz, ein Doppelbett (180x200m) und ein Kleiderschrank. Ein Flachbildschirm mit 86cm sorgt f\u00fcr die TV-Unterhaltung (Kabel-TV). Eine W-Lan-Verbindung ist im Apartment vorhanden. Bettw\u00e4sche wird bereitgestellt.\r\nEin G\u00e4stebett f\u00fcr eine dritte Person kann hinzugestellt werden.\r\n\r\nDie K\u00fcche verf\u00fcgt \u00fcber alles, was man zum Kochen ben\u00f6tigt. Nat\u00fcrlich sind Kaffeemaschine, Wasserkocher und Toaster vorhanden. Ebenso steht eine Mikrowelle zur Verf\u00fcgung.\r\n\r\nIm Duschbad befindet sich eine Dusche, WC, ein Waschtisch und ein Handtuchheizk\u00f6rper. F\u00f6n und Handt\u00fccher sind ebenfalls vorhanden.\r\n\r\nIn einem Waschraum k\u00f6nnen gegen Geb\u00fchr Waschmaschine und Trockner benutzt werden.\r\n\r\nEin Fahrradkeller steht zur Verf\u00fcgung. \r\n\r\nAUSSENBEREICH \r\nDas Apartment ist mit einer kleinen Loggia ausgestattet. Parkpl\u00e4tze sind in den Nebenstra\u00dfen zu finden. Es besteht aber auch die M\u00f6glichkeit das Auto in einer \u00f6ffentlichen Hochgarage f\u00fcr nur 2,50 Euro t\u00e4glich abzustellen. Alternativ kann auch ein privater Tiefgaragenstellplatz f\u00fcr 3,50 Euro t\u00e4glich genutzt werden. \r\n\r\nBESONDERES \r\nBremerhaven ist in 45 Autominuten zu erreichen. Dort finden Sie das Klimahaus sowie das Auswandererhaus. Per Schiff k\u00f6nnen Sie von dort auch die Insel Helgoland erreichen. In der Sommersaison von Mai bis September gibt es eine direkte Schiffsverbindung dorthin.\r\nAuch ein Abstecher nach Hamburg ist mit dem METRONOM kein Problem. Vom Hauptbahnhof sind es nur 80 Minuten dorthin.\r\n\r\nALLGEMEINE INFORMATIONEN\r\nBuchungen werden erst ab 2 N\u00e4chten entgegengenommen. Sollte nur eine Nacht gew\u00fcnscht werden, mu\u00df eine Endreinigungspauschale von 25 Euro gezahlt werden.\r\n\r\nCheck-In ab 14:00 Uhr, Check-Out bis 11:00 Uhr.\r\n\r\nVom Hauptbahnhof sind es ca. 300m zur Wohnung.\r\nVom Flughafen sind es mit dem Taxi ca. 5,5 km bzw. 15 Minuten zum Apartment. Mit der Stra\u00dfenbahnlinie 6 sind es ca. 20 Minuten zur Wohnung (Haltestelle Hauptbahnhof).\r\n\r\n",
+            "description": " The modern Non smoking apartment in a central position in early 2011 completely renovated and is now available for your city break or weekend getaway. \r\n\r\n Maximum number of persons: 3 persons \r\n Living area in m\u00b2: 32 m\u00b2 \r\n Number of rooms: 1 room apartment \r\n Distance to city center: 0.6 km \r\n Distance from airport: 6 km \r\n Railway station: 0,3 km \r\n Next supermarket \r\n\r\n LOCATION \r\n The apartment is just 300 meters from the main station in a side street between the station and the center and is located so centrally located, where all the sights can be reached on foot. The apartment is on the 5th Floor of a well-kept building with lift. \r\n The downtown market square, the old town, are Bremen Arena, the convention center with all fairs, museums, theater and musicals to reach. The annually held Bremer free market and the famous Christmas market in Bremen smell from here formally. Also, the Weser stadium is easily reached by tram. \r\n\r\n AMENITIES \r\n The bright apartment has an entrance hall, living area, a small new kitchen, new bathroom and a small porch, smoking is allowed on. \r\n The apartment was equipped with high-grade laminate and tiles. \r\n\r\n In the living room is a seating area, dining area, a double bed (180x200m) and a wardrobe. A 86cm flat screen provides the TV entertainment (cable TV). A wireless connection is available in the apartment. Bed linen is provided. \r\n A guest bed for a third person can be placed. \r\n\r\n The kitchen has everything you need for cooking. Of course, coffee maker, kettle and toaster. Similarly, there is a microwave. \r\n\r\n In the bathroom has a shower, toilet, wash basin and a towel radiator. Hair dryer and towels are provided. \r\n\r\n In a laundry room can be used for a fee washing machine and dryer. \r\n\r\n Bicycle storage is available. \r\n\r\n OUTDOORS \r\n The apartment is equipped with a small balcony. Parking is provided in the side streets. It is also possible to park in the garage for public higher 2,50 \u20ac to face every day. Alternatively, you can use a private underground parking space for 3,50 \u20ac per day. \r\n\r\n SPECIAL \r\n Bremerhaven can be reached in 45 minutes. There you will find the climate and the house Emigration Center. By boat you can reach from there the island of Helgoland. In the summer season from May to September there is a direct waterway link there. \r\n A trip to Hamburg is not a problem with the metronome. The Central Station is just 80 minutes there. \r\n\r\n GENERAL INFORMATION \r\n Reservations will be accepted until 2 nights. If you want just one night, a cleaning fee of 25 \u20ac must be counted \r\n\r\n be selected. \r\n\r\n Check-in clock from 14:00, check-out until 11:00 clock. \r\n\r\n The Central Station is about 300m to the apartment. \r\n From the airport is by taxi about 5.5 kilometers or 15 minutes to the apartment. With the tram line 6 is about 20 minutes flat (station Hauptbahnhof). \r\n\r\n\r\n\r\n",
             "price": 64.0,
             "charge_per_extra_person": 10.0,
-            "content_language": "de",
-            "country": "Deutschland",
-            "category": "Wohnung",
-            "place_type": "Gesamte Unterkunft",
+            "content_language": "en",
+            "country": "Germany",
+            "category": "Apartment",
+            "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/de/api/v1/places/city-apartment-lningstrae?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://www.9flats.com/de/places/city-apartment-lningstrae"
+                "href": "http://www.9flats.com/places/city-apartment-lningstrae"
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/de/api/v1/places/city-apartment-lningstrae/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/de/api/v1/places/city-apartment-lningstrae/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/de/api/v1/places/city-apartment-lningstrae/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/de/api/v1/places/city-apartment-lningstrae/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/de/api/v1/places/city-apartment-lningstrae/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "Ulrike T.",
@@ -212,50 +212,50 @@
             "number_of_bathrooms": 1,
             "minimum_nights": 3,
             "maximum_nights": 365,
-            "bed_type": "Echtes Bett",
+            "bed_type": "Real bed",
             "size": null,
             "house_rules": "Las normas son sencillas:\r\nDebes mantener la armon\u00eda con todos los habitantes de la casa. \r\nNo hagas exceso de ruido cuando llegues o cuando salgas, procura subir despacio las escaleras. Mant\u00e9n apagadas las luces que no vayas a utilizar, deja limpia la cocina cuando prepares tus alimentos. No ensucies las \u00e1reas comunes de la casa (pasillos, escaleras y ba\u00f1o). Si necesias algo extra debes preguntarme con anticipaci\u00f3n para ayudarte mejor.",
             "pets_around": true,
-            "bathroom_type": "Geteilt",
+            "bathroom_type": "Shared",
             "cleaning_fee": null,
             "charge_per_extra_person_limit": 1,
             "favorites_count": 2,
-            "amenities_list": ["Internet", "WLAN", "K\u00fcche", "Rauchen erlaubt", "Familien-/Kinderfreundlich", "Kamin", "Telefon", "Garten"],
-            "featured_photo_url": "http://img2.9flats.com/place_photos/photos/65857-1311462492/medium.JPG",
-            "description": "Mieten 2 Zimmer in einem gro\u00dfen zweist\u00f6ckigen Haus in den fr\u00fchen 30er Jahren gebaut eingerichtet. Erstklassige Lage (zwischen dem 12.de Octubre  und 6 de Diciembre Alleen. La Mariscal Stadtteil\r\n(Reiseb\u00fcros, Restaurants, Freizeitzentren, etc.) in der N\u00e4he der katholischen Universit\u00e4t von Quito, Salesianer-Universit\u00e4t, UDLA, Supermaxi, dem Bahnhof Manuela Ca\u00f1izares Ecov\u00eda).\r\nDienstleistungen:\r\nK\u00fcche (kommunalen)\r\nWLAN.\r\n\r\nIdeal f\u00fcr Studenten und ausl\u00e4ndischen Besucher, die eine Weile in der Hauptstadt bleiben.\r\n",
+            "amenities_list": ["Internet", "Wifi (Wireless LAN)", "Kitchen", "Smoking allowed", "Family/Kid friendly", "Indoor Fireplaces", "Phone", "Garden"],
+            "featured_photo_url": "http://img3.9flats.com/place_photos/photos/65857-1311462492/medium.JPG",
+            "description": "Rent  two furnished rooms in a large two-story house built in the early 30's. Prime location (between 12 de Octubre Av. and  6 de Diciembre Av. ,  La Mariscal Neighborhood  (travel agencies, restaurants, recreation centers, etc.) near the Catholic University of Quito, Salesian University, UDLA, Supermaxi and the Ecov\u00eda station Manuela Ca\u00f1izares .\r\n Services:\r\n kitchen (communal)\r\n wireless internet.\r\nIdeal for students and foreign visitors who wish to stay a while in the capital city.\r\n",
             "price": 25.0,
             "charge_per_extra_person": 20.0,
-            "content_language": "de",
+            "content_language": "en",
             "country": "Ecuador",
-            "category": "Haus",
-            "place_type": "Privates Zimmer",
+            "category": "House",
+            "place_type": "Private room",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/de/api/v1/places/la-tamayo-saira-1051?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://www.9flats.com/de/places/la-tamayo-saira-1051"
+                "href": "http://www.9flats.com/places/la-tamayo-saira-1051"
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/de/api/v1/places/la-tamayo-saira-1051/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/de/api/v1/places/la-tamayo-saira-1051/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/de/api/v1/places/la-tamayo-saira-1051/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/de/api/v1/places/la-tamayo-saira-1051/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/de/api/v1/places/la-tamayo-saira-1051/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "Mar\u00eda Isabel P.",
@@ -278,50 +278,50 @@
             "number_of_bathrooms": 1,
             "minimum_nights": 1,
             "maximum_nights": 365,
-            "bed_type": "Echtes Bett",
+            "bed_type": "Real bed",
             "size": null,
             "house_rules": "Food: we are vegetarian - do not stock meat or fish in the refrigerator.\r\nToilet: the boat has pumps to get dirty water to the sewer system onshore. do not throw anything in the toilet except anything that comes out of your body or small amounts of toilet paper.\r\nSmoking: we are non-smokers - you can smoke outside on the deck, whatever burns.\r\nShoes: we ain't Japanese, but prefer if you take off you shoes indoor.\r\nPets: we have a cat - she is old, and can't deal with other pets, sorry. She is not allowed in the bedroom.\r\nHeater: when it does cold, why not switch on the heater. and switch it off when you leave or go to bed\r\nKey: I'll give you a key to the house and obviously, return it\r\nOther folks: Do not bring in any other people unless we know upfront\r\nRules: we don't like rules. But at the same time it can help build stronger relationships - as we all come from different backgrounds.\r\n",
             "pets_around": false,
-            "bathroom_type": "Geteilt",
+            "bathroom_type": "Shared",
             "cleaning_fee": null,
             "charge_per_extra_person_limit": null,
             "favorites_count": 49,
-            "amenities_list": ["WLAN", "Heizung", "Geb\u00e4ude am Wasser", "K\u00fchlschrank/Gefriertruhe", "Dusche/Badewanne", "Endreinigung", "Panorama Blick"],
-            "featured_photo_url": "http://img1.9flats.com/place_photos/photos/59831-1311433366/medium.jpeg",
-            "description": " Sch\u00f6ne Hausboot / Schiff auf dem Fluss Amstel und 15 Minuten vom Stadtzentrum mit dem Fahrrad oder \u00f6ffentlichen Verkehrsmitteln. Boot befindet sich neben dem Martin Luther King Park - so ist es wirklich ruhig, da es keine anderen H\u00e4user in der N\u00e4he (au\u00dfer f\u00fcr benachbarte Boote). Im Sommer k\u00f6nnen Sie schwimmen in der Amstel, sitzen auf dem Deck in einem Fatboy au\u00dferhalb oder entspannen Sie in einer H\u00e4ngematte. \r\n\r\n Bitte beachten Sie, dass ich nicht mit der gesamten Hausboot. Es umfasst die abgebildeten Schlafzimmer - und nat\u00fcrlich k\u00f6nnen Sie im Wohnzimmer, Bad, und das Deck zu machen. Ich werde auch dort sein ;-) \r\n\r\n Es ist Breitband-Internet (via WLAN) und Heizung f\u00fcr die k\u00e4lteren Tage. \r\n\r\n Das Schiff ist im Segeln Zustand. Wenn Sie gehen auf einem Tagesausflug (gegen Geb\u00fchr) m\u00f6chten, lassen Sie es mich wissen im Voraus, da ich Mitarbeiter arrangieren. \r\n\r\n Einige Hinweise: \r\n 1. Boote waren unterwegs Zeug, nicht die Menschen gebaut. Daher die Decken sind nicht sehr hoch. Wenn Sie gr\u00f6\u00dfer als 1,85 m sind, werden Sie nicht in der Lage gerade zu stehen \u00fcberall. \r\n 2. Google Streetview: Diese Bilder wurden w\u00e4hrend der Parade Stra\u00dfenfest erschossen. Dies ist ein 2-w\u00f6chiges Festival im August - die gro\u00dfe, Spa\u00df, aber laut ist. F\u00fcr den Rest des Jahres ist der Park ruhig und es gibt keine Z\u00e4une oder porta T\u00f6pfchen mit. \r\n 3. Ich kann nicht Host mehr als 2 Personen. \r\n\r\n Wir hoffen, Sie an Bord dieses magischen Boot begr\u00fc\u00dfen zu d\u00fcrfen. \r\n\r\n",
+            "amenities_list": ["Wifi (Wireless LAN)", "Heating", "Waterfront property", "Fridge/freezer", "Shower/bathtub", "Final cleaning", "Panoramic view"],
+            "featured_photo_url": "http://img2.9flats.com/place_photos/photos/59831-1311433366/medium.jpeg",
+            "description": "Beautiful houseboat/ship on the Amstel river, 15 minutes from city center by bike or public transport. Boat is located next to the Martin Luther King park - so it's really quiet as there are no other houses nearby (except for neighboring boats). In the summer you can swim in the Amstel, sit outside on the deck in a Fatboy or relax in a hammock.\r\n\r\nPlease note that I'm not offering the entire houseboat. It includes the depicted bedroom - and of course you can make use of the living room, bathroom, and the deck. I will be there as well ;-)\r\n\r\nThere is broadband internet (via wifi) and heating for the colder days. \r\n\r\nThe ship is in sailing condition. If you want to go out on a day trip (at cost), please let me know well in advance, as I have to arrange staff.\r\n\r\nSome notes:\r\n1. Boats were built the move stuff, not people. Therefore the ceilings are not very high. If you are taller than 1.85m, you will not be able to stand up straight everywhere.\r\n2. Google Streetview: these images were shot during the Parade street festival. This is a 2 weeks festival in August - which is great, fun, but noisy. For the rest of the year, the park is quiet and there are no fences or porta potties either.\r\n3. I can't host more than 2 persons.\r\n\r\nHope to welcome you on board of this magical boat.\r\n",
             "price": 120.0,
             "charge_per_extra_person": 0.0,
-            "content_language": "de",
-            "country": "Niederlande",
-            "category": "Boot",
-            "place_type": "Privates Zimmer",
+            "content_language": "en",
+            "country": "Netherlands",
+            "category": "Boat",
+            "place_type": "Private room",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/de/api/v1/places/houseboat-on-amstel-river?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://www.9flats.com/de/places/houseboat-on-amstel-river"
+                "href": "http://www.9flats.com/places/houseboat-on-amstel-river"
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/de/api/v1/places/houseboat-on-amstel-river/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/de/api/v1/places/houseboat-on-amstel-river/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/de/api/v1/places/houseboat-on-amstel-river/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/de/api/v1/places/houseboat-on-amstel-river/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/de/api/v1/places/houseboat-on-amstel-river/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "Martin V.",
@@ -344,50 +344,50 @@
             "number_of_bathrooms": 1,
             "minimum_nights": 1,
             "maximum_nights": 365,
-            "bed_type": "Echtes Bett",
+            "bed_type": "Real bed",
             "size": 32.0,
             "house_rules": "Non-smoking, but smoking is allowed outside in the street or in one of the fun beer gardens \r\nin the area \r\n\r\nConsideration for neighbours during quiet hours after 23:00-08:00. You ought to receive the \r\nsame courtesy from them during your stay \r\n\r\n\r\nYou benefit from use of a courtesy UK mobile/cell phone. This is on a pay-as-you-go basis, \r\nand you are to top up balance to make calls. You can buy vouchers at most convenience \r\nstores. We have always provideD this service without any problems to date, but please note \r\nthat the use of the courtesy mobile phone is subject to availability, and there is no 100% \r\nguarantee. \r\n\r\n\r\nThird party services disclaimer: we do our best to ensure selection of the best service \r\nproviders for internet, tv, mobile phone etc, and maintain all equipment new and in good \r\nworking order, but we cannot be held responsible for the reliability of these third party \r\nservices at all times. They are all courtesy of the rental. We do have had an outstanding \r\nreliability track record to date. \r\n\r\n\r\nRubbish collection from the street is daily, rubbish/trash is to be put outside after 5pm \r\n\r\n\r\nPets are not allowed to stay or to visit the property. The tenant is responsible for any pets \r\nallowed to enter the property and any damage they might cause. \r\n\r\n\r\nThe property is to be returned in clean condition (professional cleaning standard) and free \r\nfrom personal belongings, just as found upon arrival. Professional cleaning at check-in and \r\ncheck-out is pre-organised; all you have to do is agree a time directly with cleaners for \r\ncheckout. This is included in the booking. Additional extra or regular cleaning for longer \r\nstays can be organised your convenience and cost will depend on condition. Rate: \u00a313 per \r\nhour. Allow 4 hours for light cleaning, 8 hours for deep cleaning. You will find direct contact \r\ndetails for the cleaning company when you book, and also in the property, to make \r\narrangements directly at your convenience. \r\n\r\nLost keys: guests will be given two sets of keys, but in the very unlikely event of finding \r\nthemselves locked out or lose both keys, we apply a charge of \u00a390 for callout, during \r\nbusiness hours 9-5, and \u00a3180 if after-hours. This includes both lost keys and lock out.\r\nDisclaimer: \r\nThe Angel area is extremely safe, and the building as well, these are general \r\nrecommendations and a legal disclaimer. The owner(s) accept no responsibility for any \r\nclaims from the Tenant(s) with respect to injury, damage, or loss. The tenants are to \r\narrange their own contents insurance, or otherwise travel insurance. Any malfunctions or \r\ndamages are to be reported immediately to the owner for remedial action. All effort is \r\nundertaken to ensure all functionalities of the property are fully operational. In case of \r\nmalfunction, repair ought to be forthcoming, and for prolonged failure a refund or discount \r\nmay apply, but the Owner disclaims any responsibility for any business losses arriving from \r\nloss of operation of any functionality in the property. E.g. internet, courtesy mobile phone \r\netc.. The Tenant is responsible for using both locks on the property door when exiting, and \r\nthe lock on the building's front/street door at all times.",
             "pets_around": false,
-            "bathroom_type": "Privat",
+            "bathroom_type": "Private",
             "cleaning_fee": null,
             "charge_per_extra_person_limit": 4,
             "favorites_count": 13,
-            "amenities_list": ["Internet", "TV", "Heizung", "K\u00fcche", "Waschmaschine", "Familien-/Kinderfreundlich", "Geschirrsp\u00fcler", "Telefon", "K\u00fchlschrank/Gefriertruhe", "Dusche/Badewanne"],
+            "amenities_list": ["Internet", "TV", "Heating", "Kitchen", "Washer", "Family/Kid friendly", "Dishwasher", "Phone", "Fridge/freezer", "Shower/bathtub"],
             "featured_photo_url": "http://img3.9flats.com/place_photos/photos/87942-1309436146/medium.jpg",
-            "description": " Das k\u00fcrzlich renovierte Wohnung in Islington, London. Eine intelligente und sch\u00f6n dekoriert mit einem Schlafzimmer, viktorianischen Zeit Wohnung in Barnesbury, Islington, f\u00fcr kurzfristige Vermietung gelegen. Zone 1, N1, sehr zentral gelegen mit hervorragenden Verkehrsanbindungen, vor der Haust\u00fcr. In unmittelbarer und einfach zu allen wichtigen Sehensw\u00fcrdigkeiten Londons erreichen, 12 Minuten mit dem Bus sowohl Oxford Circus und Camden und nur 5 Minuten von Kings Cross. Sehr bequem und hell sein. \r\n\r\n Geschickt und professionell dekoriert die Wohnung ist \u00fcber eine Etage eines umgebauten viktorianischen Haus positioniert und h\u00e4lt viele Zeit-Funktionen wie Schiebefenster, Gusseisen Heizk\u00f6rper, original Marmor Feuer umgeben und Fensterl\u00e4den. Die Lage ist hervorragend wobei nur zehn Minuten von der pulsierenden und trendigen Upper Street entfernt. Das Schlafzimmer mit Blick auf einen gepflegten Garten und ist perfekt schweigen angesichts der Wohnungen Standort. Sehr k\u00fchl im Sommer mit von hinten nach vorne nat\u00fcrliche Bel\u00fcftung und angenehm warm im Winter. \r\n\r\n Profitieren sowohl von der Entspannung und Komfort von zu Hause und das Summen der belebten Upper Street, Angel und Kings Cross und Caledonian Road nur einen Katzensprung entfernt ist die Wohnung weniger als 15 Minuten vom belebten West End, mit einer eklektischen Mischung aus Bars, Caf\u00e9s , Kinos, Theatern, Clubs, Superm\u00e4rkte und eine Vielzahl von Designer-L\u00e4den in unmittelbarer N\u00e4he. Schlicht, sauber, ger\u00e4umig, modern und neu eingerichtet Ihren Aufenthalt hier wird man von Luxus mit dem Vorteil, dass sie in einem der begehrtesten Stadtteile Londons werden. \r\n\r\n Diese Wohnung ist ein typisches Haus in London und hier bleiben wird Ihnen die Erfahrung des Lebens wie eine traditionelle Londoner im Herzen der Hauptstadt. \r\n\r\n Eichenparkett mit gro\u00dfer Teppiche f\u00fcr einen angenehmen Aufenthalt, 32 Zoll Plasma-TV digital, Kabel-TV-Dienst (DVB-T), DVD-Player, iPod oder iPhone Lautsprecher und Docking-Station, komplett mit au\u00dfergew\u00f6hnlichen M\u00f6beln, automatische Zentralheizung, voll ausgestattete moderne K\u00fcche mit K\u00fchlschrank ausgestattet und Gefrierschrank, Waschmaschine, Gasherd und Backofen, Mikrowelle, gro\u00dfe Ecke L-f\u00f6rmigen Sofa im Wohnzimmer f\u00fcr weitere G\u00e4ste (Schlafsofa f\u00fcr 2 sehr komfortabel). Es gibt ein Doppelbett im Schlafzimmer (f\u00fcr 2 andere), und zus\u00e4tzliche Betten k\u00f6nnen f\u00fcr Menschen, die getrennt schlafen angeboten werden. Badezimmer mit Badewanne und Dusche, und Lagerung. Secure Eintrag mit Gegensprechanlage und renoviert Eingang und Treppenhaus zu bauen. Internet und eine H\u00f6flichkeit UK Handy sind in der Wohnung bereit f\u00fcr Ihren Einsatz w\u00e4hrend Ihres Aufenthalts. \r\n\r\n Der Verkehr ist au\u00dferhalb der Haust\u00fcr. Caledonian Road Station Overground (Zone 1) ist ein 5-Minuten zu Fu\u00df von der Wohnung und alle regelm\u00e4\u00dfige Busverbindungen sind nur 30 Sekunden entfernt. Highbury and Islington National Rail und U-Bahn (Victoria Line) Station ist ein zehn Minuten zu Fu\u00df von der Wohnung durch die von B\u00e4umen ges\u00e4umte malerische Gegend von Islington Barnsbury. St. Pancras Eurostar-Terminal nach Paris und Br\u00fcssel ist weniger als ein 15-min\u00fctigen Spaziergang von der Wohnung und Busse verbinden h\u00e4ufig aus der N\u00e4he. Viele Busse in den Westen Beendet die \r\n\r\n d anderen Teilen von London kann genauso nah gefunden werden. \r\n\r\n Das Zentrum ist nur wenige U-Bahnstationen entfernt, k\u00f6nnen Sie auch dort zu Fu\u00df. \r\n\r\n Nah an allen Annehmlichkeiten, die Gesch\u00e4fte Restaurants und Bars der Caledonian Road und Upper Street, gegen\u00fcber dem Barnesbury Bibliothek. Es gibt auch eine Stra\u00dfe in der N\u00e4he Auto sowie Fahrradverleih und Bushaltestellen. Alle Theater und Restaurants die Sie sich w\u00fcnschen, plus gut einkaufen. \r\n\r\n Diese Wohnung wird von einem professionellen Wirt und seine professionelles Support-Team sorgt f\u00fcr hohe pr\u00e4ventive Wartung und hervorragende Kundenbetreuung, aufmerksam und immer verf\u00fcgbar verwaltet, die Verbesserung Ihren Urlaub oder Aufenthalt. \r\n\r\n Alle Wartungsarbeiten ist in Rekordzeit mit wenig Unterbrechung der Nutzung des Eigentums unternommen. Der Ort der Wohnung ist ideal, da es im Herzen der N1 (Nord 1) macht es leicht, die meisten der wichtigsten Sehensw\u00fcrdigkeiten von London, w\u00e4hrend in einem der sch\u00f6nsten Bezirke von London festgelegt positioniert ist. Islington ist ber\u00fchmt f\u00fcr sein Nachtleben, Theater und bietet eine beeindruckende Auswahl durch das West End Rivalen. Der weltber\u00fchmte Sadlers Nun Dance Theatre k\u00f6nnen zu Fu\u00df erreicht werden. Almeida, Union Chapel und O2 Academy, Live-Musik in Pubs und Bars, sind nur ein Beispiel der unglaublichen Angebot. Bekannte Sehensw\u00fcrdigkeiten in der Umgebung geh\u00f6ren die Dickens-Museum, das London Canal Museum, Camden Passage Antiquit\u00e4tenmarkt, Chapel Market Obst &amp; Gem\u00fcse, Columbia Road Flower Market, Brick Lane, Broadway Market, Spitafields und Pettycoat Lane. Die Emi \r\n\r\n Preise Fu\u00dfballstadion ist nur wenige Gehminuten oder eine kurze Busfahrt entfernt. Der Vermieter kann Englisch, Portugiesisch und Spanisch mit dir sprechen. \r\n\r\n Familie als freundlich zu der Umgebung bietet die Geffrye Museum mit einer herrlichen kidzone der V &amp; A Museum of Childhood, Highbury Fields, London Fields und Regents Park, nicht zu Thornhill Square erw\u00e4hnen. Newington Green hat ein Kinder-Caf\u00e9 namens &quot;, die auf der Ecke&quot;, und viele kinderfreundliche Caf\u00e9s am Caledonian Road und Upper Street - auch ideal f\u00fcr den Einkaufsbummel. \r\n\r\n Wir verwenden eine transparente Preispolitik betreiben, so dass der Preis auf dieser Website ist der Gesamtpreis (zzgl. Geb\u00fchren der Website kann gegen Geb\u00fchr). Dieser Preis ist inklusive aller Dienste in der Wohnung, sogar Kasse Reinigung. Es gibt nichts anderes zu zahlen, f\u00fcr bis zu 4 Personen Preis bleibt der gleiche. \r\n Bitte E-Mail, wenn Sie buchen eine Besichtigung w\u00fcnschen, buchen Sie sofort, oder Fragen haben. \r\n\r\n",
+            "description": "Recently refurbished apartment in Islington, Central London. A smart and beautifully decorated one bedroom, Victorian period apartment located in Barnesbury, Islington, for Short term letting. Zone 1, N1, very central with great transport links on your doorstep. Within close and easy reach to all of London's key attractions, 12 minute bus ride to both Oxford circus and Camden and only 5 min from Kings Cross. Very convenient and bright.\r\n\r\nSmartly and professionally decorated the apartment is positioned over one floor of a converted Victorian house and maintains many period features such as sash windows, cast iron radiators, original marble fire surround and window shutters. The location is superb being just a ten minute walk from the vibrant and trendy Upper Street. The bedroom overlooks a well kept garden and is perfectly silent considering the apartments location. Very cool in the summer with back to front natural ventilation, and comfortably warm in the wintertime. \r\n\r\nBenefitting from both the relaxation and comfort of a home and the buzz of vibrant Upper Street, Angel and Kings Cross and Caledonian Road only moments away the apartment is set less than 15 minutes from the bustling West End, with an eclectic mix of bars, cafes, cinemas, theatres, clubs, supermarkets, and a vast array of designer shops close at hand. Homely, clean, spacious, modern and newly furnished your stay here will be one of luxury with the benefit of being in one of London's most desirable boroughs. This apartment is a typical London home and staying here will give you the experience of living like a traditional Londoner in the heart of the capital.\r\n\r\nOak flooring with great rugs for a comfortable stay, 32 inch digital plasma TV, cable TV service (freeview), DVD player, ipod or iphone speakers and docking station, fully furnished with extraordinary furniture, automatic central heating, fully fitted contemporary kitchen with fridge & freezer, washing machine, gas hob and oven, microwave, large corner L-shaped sofa in living room for additional guests (sofa bed sleeps 2 very comfortably). There is a double bed in the bedroom (sleeps 2 others), and extra bedding can be offered for people wanting to sleep separately. Bathroom with bath and shower, and storage throughout. Secure entry with intercom and renovated entrance and stairways to building. Internet, and a courtesy UK mobile phone are in the apartment ready for your use during your stay.\r\n\r\nTransport is outside the doorstep. Caledonian Road Overground Station (Zone 1) is a 5-minute walk from the apartment and all frequent bus services are only 30 seconds away. Highbury and Islington National Rail and Underground (Victoria Line) Station is a ten-minute walk from the apartment through the tree-lined picturesque Islington neighbourhood of Barnsbury. St. Pancras Eurostar terminal to Paris and Brussels is less than a 15-minute walk from the apartment and buses connect frequently from close by. Many buses to the West End and other parts of London can be found just as close. \r\n\r\nThe centre is only a few underground stops away, you could even walk there.\r\n\r\nClose to all the amenities shops restaurants and bars of Caledonian Road and Upper Street and opposite the Barnesbury Library. There is also a Street Car nearby as well as cycle hire and bus stops. All the theatres and restaurants you could want, plus great shopping. \r\n\r\nThis flat is managed by a professional landlord and his professional support team providing extraordinary preventative maintenance and outstanding customer care, attentive and always available, enhancing your holiday or stay. \r\n\r\nAll maintenance is undertaken in record time with little disruption to the enjoyment of the property. The locality of the apartment is ideal as it Is positioned in the heart of N1 (North 1) making it easily accessible to most of the main attractions of London whilst being set in one of London\u2019s most picturesque boroughs. Islington is famous for its nightlife, theatres and offers an impressive choice to rival the West End. The world famous Sadlers Well Dance Theatre can be reached on foot. Almeida, Union Chapel and O2 academy, live music at local pubs and bars, are just a sample of the incredible range on offer. Well known attractions in the area include the Dickens Museum, the London Canal Museum, Camden Passage antiques market, Chapel Market fruit & veg, Columbia Road flower market, Brick Lane, Broadway Market, Spitafields and Pettycoat Lane. The Emirates football stadium is within walking distance, or a quick bus ride away. The landlord can speak English, Portuguese and Spanish with you.\r\n\r\nFamily friendly too as the area offers the Geffrye Museum with a splendid kidzone the V&A Museum of Childhood, Highbury Fields, London Fields and Regents Park, not to mention Thornhill Square. Newington Green has a children\u2019s cafe called \u2018that place on the corner\u2019, and lots of child friendly cafes on Caledonian Road and Upper Street - also perfect for shopping sprees. \r\n\r\nWe use a transparent price policy, so the price given on this website is the total price (plus any fees the website may charge). This price is inclusive of all services in the apartment, even checkout cleaning. There is nothing else to pay, for up to 4 guests the price remains the same.\r\nPlease email if you want to book a viewing, book straight away, or have any questions. \r\n",
             "price": 110.0,
             "charge_per_extra_person": 52.0,
-            "content_language": "de",
-            "country": "Gro\u00dfbritannien",
-            "category": "Wohnung",
-            "place_type": "Gesamte Unterkunft",
+            "content_language": "en",
+            "country": "United Kingdom",
+            "category": "Apartment",
+            "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/de/api/v1/places/picturesque-apartment?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://www.9flats.com/de/places/picturesque-apartment"
+                "href": "http://www.9flats.com/places/picturesque-apartment"
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/de/api/v1/places/picturesque-apartment/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/de/api/v1/places/picturesque-apartment/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/de/api/v1/places/picturesque-apartment/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/de/api/v1/places/picturesque-apartment/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/de/api/v1/places/picturesque-apartment/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "Clive T.",
@@ -410,50 +410,50 @@
             "number_of_bathrooms": 2,
             "minimum_nights": 5,
             "maximum_nights": 365,
-            "bed_type": "Echtes Bett",
+            "bed_type": "Real bed",
             "size": null,
             "house_rules": "Please review with Wayan when you arrive.  \r\nIf you break it, you pay for it!  \r\n",
             "pets_around": false,
-            "bathroom_type": "Privat",
+            "bathroom_type": "Private",
             "cleaning_fee": null,
             "charge_per_extra_person_limit": 2,
             "favorites_count": 7,
-            "amenities_list": ["Internet", "TV", "K\u00fcche", "Schwimmbad", "Rauchen erlaubt", "Familien-/Kinderfreundlich", "Balkon", "Garten", "K\u00fchlschrank/Gefriertruhe", "Dusche/Badewanne", "Panorama Blick"],
-            "featured_photo_url": "http://img3.9flats.com/place_photos/photos/169716-1316132479/medium.JPG",
-            "description": " Das Swallow Guesthouse bietet Platz f\u00fcr 6 Personen und bietet zwei separate Suiten, die \"Sunrise Suite\" und die beiden Schlafzimmer \"Sunset Suite\" geeignet f\u00fcr Familien, Schriftsteller, K\u00fcnstler, Fahrrad fahren oder Wandern Gruppen oder Personen, die eine l\u00e4ngerfristige Ort zu erstellen und zu wollen Entspannung in der Ruhe und des \"REAL\" Bali. Beide sind voll ausgestattet mit separaten westlichen Stil B\u00e4der mit hei\u00dfen Duschen ausgestattet. Internet verf\u00fcgbar ist. \r\n G\u00e4ste k\u00f6nnen sich entspannen, w\u00e4hrend Sie die umliegende t\u00e4glichen Lebens in die Reisfelder und Berge aus verschiedenen Liegefl\u00e4chen und Terrassen. Einer dieser Aussichtspunkte ist die gro\u00dfe Gazebo oder \"Bale\" in Balinesen. Es liegt oberhalb des gemeinsamen getrennt Aussenk\u00fcche, die voll mit Kochgelegenheit ausgestattet ist, aber wir empfehlen Ihnen unsere traditionelle Speisen angeboten zweimal t\u00e4glich. Ein weiterer Grund ist die Lotus Pond Terrasse - ein ideales Revier, in der Nacht lesen und beobachten Sie die Gl\u00fchw\u00fcrmchen. \r\n Das Swallow Guesthouse ist mit balinesischer Tradition entworfen. Alle Geb\u00e4ude sind Holzschnitzereien und M\u00f6bel von Hand von \u00f6rtlichen Handwerkern hergestellt. Die G\u00e4ste k\u00f6nnen das Gef\u00fchl der W\u00e4rme und Leidenschaft, die gegeben worden ist, um diesen Traum zu Hause wahr. \r\n Ihre Guest Service Gastgeber Wayan und Putri, wirklich genie\u00dfen, ihre einzigartige Kultur und sind bestrebt, alle Fragen zu beantworten. Seien Sie nicht \u00fcberrascht, wenn sie Sie verkleiden sich in die traditionelle Kleidung und bringt Sie direkt zu einem Tempel Zeremonie oder Familienfest werden. Es ist ihre Freude, um Ihren Aufenthalt so angenehm und stressfrei. \r\n Wayan, eine 15-j\u00e4hrige erfahrene Englisch sprechende Reiseleitung und Fahrer, bietet Platz f\u00fcr Ihre W\u00fcnsche und Fragen. Wenn Sie Hilfe in eine Inselrundfahrt gesch\u00e4ftlich oder zum Vergn\u00fcgen w\u00fcnschen, kann er helfen Ihnen gerne die Details. Putri, seine Frau, ist unsere indonesischen kochen. Sie schafft sehr leckere Gerichte mit frischem Gartengem\u00fcse aus unserem Bio-Garten und einheimischen Produkten. Angemessene Preise f\u00fcr die Mahlzeiten angeboten werden. Wenn Sie einige Lektionen wollen, z\u00f6gern Sie nicht, im Austausch f\u00fcr einige englische Praxis zu fragen. \r\n Unsere Lage ist 20 Minuten NE mit dem Motorrad von Ubud in Pesalakan Pejeng. Es gibt einen kurzen asphaltierten Wander-oder Radweg, abseits der Hauptstra\u00dfe f\u00fchrt. Freuen Sie sich, wie es sehr friedlich und ruhig. Der kurze Spaziergang bringt Sie neben dem Reis und Wasser Deich so dass Sie all Ihren Stress hinter sich zu lassen. \r\n Sunu die Pension auf der Stra\u00dfe hat einen Pool, der Swallow G\u00e4ste gegen eine minimale Geb\u00fchr nutzen k\u00f6nnen, wenn unbesetzt. \r\n Es ist ein kleines Dorf Markt und mehreren lokalen Tempel, wo man den Einheimischen zu treffen und genie\u00dfen ihren unz\u00e4hligen l\u00e4chelt. Als Hindu Rasse, die Leute sind sehr Geben und nicht bedrohlich, um ihr Karma zu erh\u00f6hen. Sie lieben zeigen Ihnen ihre Kultur und die gemeinsame Nutzung der laufenden Zeremonien. \r\n Mindestmietdauer betr\u00e4gt eine Woche und monatlich erm\u00e4\u00dfigten Preisen zur Verf\u00fcgung stehen. Eine Anzahlung von $ 50US zur Miete und $ 120 f\u00fcr die monatlichen Mieten ben\u00f6tigt, um Ihre Anmeldung zu halten. Mach dir keine Sorgen, wir sind immer noch erschwinglich f\u00fcr den preisbewussten Reisenden! \r\n \"Es ist perfekt f\u00fcr mich Studie, besser als ich tr\u00e4umte, es w\u00e4re.\" Luc aus Madagaskar Frankreich. August \r\n\r\n & September 2009 \r\n\r\n",
+            "amenities_list": ["Internet", "TV", "Kitchen", "Pool", "Smoking allowed", "Family/Kid friendly", "Balcony", "Garden", "Fridge/freezer", "Shower/bathtub", "Panoramic view"],
+            "featured_photo_url": "http://img2.9flats.com/place_photos/photos/169716-1316132479/medium.JPG",
+            "description": "The Swallow Guesthouse has room for 6 people and offers two separate suites, the \u201cSunrise Suite\u201d and the two bedroom \u201cSunset Suite\u201d suitable for families, writer's, artists, biking or trekking groups or people who want a longer term place to create and relax in the peace and quiet of the \"REAL\" Bali.  Both are fully furnished with separate western style bathrooms with hot showers.  Internet is available.      \r\nGuests can relax while watching the surrounding daily life in the rice fields and mountain views from various lounging areas and patios.  One of these lookouts is the tall Gazebo or \u201cBale\u201d in Balinese.  It sits above the shared separated exterior kitchen which is fully equipped with cooking facilities but we recommend you to taste our traditional meals offered twice daily.  Another is the Lotus Pond terrace \u2013 a perfect area to read at night and watch the fireflies.\r\nThe  Swallow Guesthouse is designed with Balinese tradition in mind.  All the building, wood carving and furnishings are made by hand by local craftsmen.  Guests can feel the warmth and passion that has been given to make this dream home come true.  \r\nYour Guest Service hosts Wayan and Putri,  truly enjoy sharing their unique culture and are eager to answer any questions.  Don\u2019t be surprised if they dress you up in the traditional clothing and whisk you off to a temple ceremony or family feast.  It\u2019s their pleasure to make your stay comfortable and stress-free.  \r\nWayan, a 15 year experienced English speaking tour guide and driver, can accommodate your needs and questions.  If you desire assistance in an island tour for pleasure or business, he can help you arrange the details.  Putri, his wife, is our Indonesian cook.  She creates very delicious dishes using fresh garden vegetables from our organic garden and local produce.  Reasonable prices for meals are offered.  If you want some lessons, don't hesitate to ask in exchange for some English practice.\r\nOur location is 20 minutes NE by motorbike from Ubud in Pesalakan Pejeng.  There is a short paved walking or bike path that leads away from the main road.  Guests enjoy as it\u2019s extremely peaceful and quiet.  The short walk brings you alongside the rice and water dyke allowing you to leave all your stresses behind.  \r\nSunu's Pension down the road has a pool that Swallow Guests can use for a minimum fee when unoccupied.  \r\nThere is a small village market and several local temples where you can meet the locals and enjoy their countless smiles. As a Hindu race, people are very giving and non-threatening to heighten their karma. They love showing you their culture and sharing the ongoing ceremonies.\r\nMinimum rental is one week and monthly discounted rates are available.   A deposit of $50US for weekly rentals and $120 for monthly rentals is required to hold your booking.  Don\u2019t worry, we are still affordable for the budget travelers!\r\n\u201cIt\u2019s perfect for me to study, better than I dreamed it would be.\u201d  Luc from Madagascar France.  Aug&Sept 2009  \r\n",
             "price": 22.0,
             "charge_per_extra_person": 7.0,
-            "content_language": "de",
-            "country": "Indonesien",
-            "category": "Zimmer mit Fr\u00fchst\u00fcck",
-            "place_type": "Privates Zimmer",
+            "content_language": "en",
+            "country": "Indonesia",
+            "category": "Bed and breakfast",
+            "place_type": "Private room",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/de/api/v1/places/affordable-home-in-the-real-bali?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "full",
-                "href": "http://www.9flats.com/de/places/affordable-home-in-the-real-bali"
+                "href": "http://www.9flats.com/places/affordable-home-in-the-real-bali"
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/de/api/v1/places/affordable-home-in-the-real-bali/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/de/api/v1/places/affordable-home-in-the-real-bali/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/de/api/v1/places/affordable-home-in-the-real-bali/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/de/api/v1/places/affordable-home-in-the-real-bali/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/de/api/v1/places/affordable-home-in-the-real-bali/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
             }],
             "host": {
                 "name": "suzan b.",
@@ -463,10 +463,10 @@
     }],
     "links": [{
         "rel": "self",
-        "href": "http://www.9flats.com/de/api/v1/users/jana-k-1/favorites?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+        "href": "http://www.9flats.com/api/v1/users/jana-k-1/favorites?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
     },
     {
         "rel": "user",
-        "href": "http://www.9flats.com/de/api/v1/users/jana-k-1?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+        "href": "http://www.9flats.com/api/v1/users/jana-k-1?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
     }]
 }

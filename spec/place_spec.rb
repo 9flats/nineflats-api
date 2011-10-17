@@ -41,24 +41,24 @@ describe Nineflats::Place do
       @place.bathroom_type.should == "Private"
       @place.cleaning_fee.should == nil
       @place.charge_per_extra_person_limit.should == 4
-      @place.favorites_count.should == 2
-      @place.amenities_list.should == ["Internet", "Wifi (Wireless LAN)", "TV", "Air Conditioning", "Kitchen", "Washer", "Smoking allowed", "Pets allowed", "Balcony", "Dishwasher", "Fridge/freezer", "Shower/bathtub", "Baby crib", "Panoramic view"]
-      @place.featured_photo_url.should == "/data/place_photos/photos/62387-1311446301/medium.jpg"
+      @place.favorites_count.should == 5
+      @place.amenities_list.should == ["Internet", "Wifi (Wireless LAN)", "TV", "Air Conditioning", "Kitchen", "Washer", "Smoking allowed", "Family/Kid friendly", "Pets allowed", "Balcony", "Dishwasher", "Fridge/freezer", "Shower/bathtub", "Baby crib", "Final cleaning", "Panoramic view", "Gay friendly"]
+      @place.featured_photo_url.should == "http://img1.9flats.com/place_photos/photos/62387-1311446301/medium.jpg"
       @place.price.should == 90.0
       @place.country.should == "Portugal"
       @place.category.should == "Apartment"
       @place.place_type.should == "Entire place"
-      @place.description.should == "<b>Panoramic terrace in the historic center of Lisbon, close to Subway and Airport</b>"
+      @place.description.should == "Panoramic terrace in the historic center of Lisbon, close to Subway and Airport"
     end
     
     it "should set the links" do
-      @place.self_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa"
+      @place.self_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
       @place.full_url.should == "http://www.9flats.com/places/apt-no-centro-histrico-de-lisboa"
-      @place.photos_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/photos"
-      @place.prices_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices"
-      @place.reviews_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/reviews"
-      @place.calendar_current_month_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10"
-      @place.calendar_next_month_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11"
+      @place.photos_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.prices_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.reviews_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.calendar_current_month_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.calendar_next_month_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
     end
 
     it "should set the host" do

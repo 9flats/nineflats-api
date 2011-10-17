@@ -15,5 +15,9 @@
       "place_stars": 5,
       "language": "de"
     }
+  }],
+  "links": [{
+      "rel": "self",
+      "href": "http://api.9flats.com/api/v1/places/harmony-villas-close-to-the-sea/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
   }]
 }
