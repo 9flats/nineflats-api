@@ -7,14 +7,6 @@ describe Nineflats::Place do
       "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
       :body => Fixtures.place
     )
-    FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=#{Nineflats::Base.client_app_key}", 
-      :body => Fixtures.place_prices
-    )
-    FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/reviews?client_id=#{Nineflats::Base.client_app_key}", 
-      :body => Fixtures.place_reviews
-    )
   end
   
   describe "fetch" do
