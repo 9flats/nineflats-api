@@ -57,6 +57,23 @@ module Nineflats
       @calendar_next_month_url    = Nineflats::Base.object_link("calendar: next month", place["links"])
     end
 
+    def self.search(params = nil)
+      params ||= {}
+      
+      queries = []
+      params.each do |key, value|
+        queries << "&search[#{key}]=#{value}"
+      end
+      
+      result = Helpers.get_data(base_url + "/places?client_id=#{Nineflats::Base.client_app_key}" + queries.join)
+      
+      places = []
+      result["places"].each do |place_json|
+        places << Place.new(place_json)
+      end
+      places
+    end
+
     def self.fetch(slug, lang)
       Place.new(Helpers.get_data(Place.api_call(slug, lang)))
     end
