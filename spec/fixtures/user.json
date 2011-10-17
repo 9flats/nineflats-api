@@ -1,19 +1,19 @@
 {
-  "user": {
-    "name": "Jana K.",
-    "slug": "jana-k-1",
-    "user_photo_url": "http://img2.9flats.com/users/photos/11405-1311181665/medium.jpg",
-    "links": [{
-      "rel": "self",
-      "href": "http://api.9flats.com/api/v1/users/jana-k-1"
-    },
-    {
-      "rel": "full",
-      "href": "http://www.9flats.com/users/jana-k-1"
-    },
-    {
-      "rel": "favorites",
-      "href": "http://api.9flats.com/api/v1/users/jana-k-1/favorites"
-    }]
-  }
+    "user": {
+        "name": "Jana K.",
+        "slug": "jana-k-1",
+        "user_photo_url": "http://img3.9flats.com/users/photos/11405-1311181665/medium.jpg",
+        "links": [{
+            "rel": "self",
+            "href": "http://api.9flats.com/api/v1/users/jana-k-1?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+        },
+        {
+            "rel": "full",
+            "href": "http://www.9flats.com/users/jana-k-1"
+        },
+        {
+            "rel": "favorites",
+            "href": "http://api.9flats.com/api/v1/users/jana-k-1/favorites?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+        }]
+    }
 }
