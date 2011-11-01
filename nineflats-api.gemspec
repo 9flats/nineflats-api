@@ -5,7 +5,7 @@ require "nineflats-api/version"
 Gem::Specification.new do |s|
   s.name        = "nineflats-api"
   s.version     = Nineflats::Api::VERSION
-  s.authors     = ["Lena Herrmann"]
+  s.authors     = ["Lena Herrmann", "Thorsten Böttger"]
   s.email       = ["lena@zeromail.org"]
   s.homepage    = "http://9flats.github.com/api_docs/index.html"
   s.summary     = %q{9flats API}
@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
 
   s.require_paths = ["lib"]
 
+  s.add_runtime_dependency('oauth')
   s.add_development_dependency('rake', '~> 0.9.0')
   s.add_development_dependency('rspec')
   s.add_development_dependency('fakeweb')
