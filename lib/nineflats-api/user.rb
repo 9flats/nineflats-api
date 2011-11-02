@@ -29,6 +29,10 @@ module Nineflats
       end
     end
 
+    def self.bookings(user_id)
+      Client.bookings(user_id)
+    end
+
     def self.fetch(slug)
       User.new(Helpers.get_data(User.api_call(slug)))
     end

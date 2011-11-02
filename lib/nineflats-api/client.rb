@@ -1,3 +1,4 @@
+require 'nineflats-api/requests'
 module Nineflats
   class Client < Base
     # API_BASE_URI = "api.9flats.com/api/v1"
@@ -8,6 +9,8 @@ module Nineflats
     attr_accessor :request_token
     attr_accessor :access_token
     attr_reader :consumer
+
+    include Requests
 
     def self.connect(api_key, api_secret, options={})
       @@client = Client.new(api_key, api_secret, options)
@@ -21,12 +24,16 @@ module Nineflats
       @@client
     end
 
+    def self.consumer
+      @@client.consumer
+    end
+
     def request_token(callback_url)
       @consumer.get_request_token({:oauth_callback => callback_url})
     end
 
-    def access_token(request_token, verifier)
-      @access_token ||= @consumer.get_access_token(request_token, )
+    def exchange_access_token(request_token, verifier)
+      request_token.get_access_token(:oauth_verifier => verifier)
     end
 
   private
@@ -37,6 +44,7 @@ module Nineflats
         :scheme             => :header,
         :http_method        => :post
        })
+      @access_token = options[:access_token]
       # Client.default_options[:simple_oauth] = { :consumer => @consumer, :method => 'HMAC-SHA1' }.merge(options)
     end
 
