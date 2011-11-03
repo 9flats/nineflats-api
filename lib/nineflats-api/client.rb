@@ -3,8 +3,8 @@ module Nineflats
   class Client < Base
     # API_BASE_URI = "api.9flats.com/api/v1"
     # API_BASE_URI = "http://localhost.com:3000/api/v1"
-    # WEB_BASE_URI = "http://www.9flats.com"
-    WEB_BASE_URI = "http://localhost.com:3000"
+    WEB_BASE_URI = "http://www.9flats.com"
+    # WEB_BASE_URI = "http://localhost.com:3000"
 
     attr_accessor :request_token
     attr_accessor :access_token
