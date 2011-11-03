@@ -1,0 +1,107 @@
+{
+  "bookings": [
+    {
+      "booking": {
+        "checkin_date": "04/26/2011",
+        "checkout_date": "04/27/2011",
+        "host": {
+          "name":
+          "Lys B."
+        },
+        "links":[
+          {
+            "href": "http://www.localhost.com:3000/api/v1/users/alto-a/bookings/86f1cdc5?client_id=rdmbSMxIFeJDvQKnBvLBA8NeXQ5ijcnPMtZY0Usg",
+            "rel": "self"
+          },
+          {
+            "href": "http://www.localhost.com:3000/bookings/86f1cdc5",
+            "rel": "full"
+          }
+        ],
+        "nights": 1,
+        "number_of_guests": 1,
+        "place": {
+          "city": "Hamburg",
+          "country": "Germany",
+          "district": "",
+          "links": [
+            {
+              "href": "http://www.localhost.com:3000/api/v1/places/6-apartment-hamburg-neustadt?client_id=rdmbSMxIFeJDvQKnBvLBA8NeXQ5ijcnPMtZY0Usg",
+              "rel": "self"
+            },
+            {
+              "href": "http://www.localhost.com:3000/places/6-apartment-hamburg-neustadt",
+              "rel": "full"
+            }
+          ],
+          "name": "Unser kleines Zimmer",
+          "slug": "unser-kleines-zimmer",
+          "state": null,
+          "zipcode": "20355"
+        },
+        "status": "Uncompleted",
+        "total" :{
+          "currency": "EUR",
+          "value": 80.99
+        }
+      }
+    },
+    {
+      "booking": {
+        "checkin_date": "01/26/2011",
+        "checkout_date": "01/27/2011",
+        "host": {
+          "name":
+          "Lys B."
+        },
+        "links":[
+          {
+            "href": "http://www.localhost.com:3000/api/v1/users/alto-a/bookings/86f1cdsos?client_id=rdmbSMxIFeJDvQKnBvLBA8NeXQ5ijcnPMtZY0Usg",
+            "rel": "self"
+          },
+          {
+            "href": "http://www.localhost.com:3000/bookings/86f1cdsos",
+            "rel": "full"
+          }
+        ],
+        "nights": 1,
+        "number_of_guests": 1,
+        "place": {
+          "city": "Hamburg",
+          "country": "Germany",
+          "district": "",
+          "links": [
+            {
+              "href": "http://www.localhost.com:3000/api/v1/places/6-apartment-hamburg-neustadt?client_id=rdmbSMxIFeJDvQKnBvLBA8NeXQ5ijcnPMtZY0Usg",
+              "rel": "self"
+            },
+            {
+              "href": "http://www.localhost.com:3000/places/6-apartment-hamburg-neustadt",
+              "rel": "full"
+            }
+          ],
+          "name": "Unser kleines Zimmer",
+          "slug": "unser-kleines-zimmer",
+          "state": null,
+          "zipcode": "20355"
+        },
+        "status": "Uncompleted",
+        "total" :{
+          "currency": "USD",
+          "value": 180.99
+        }
+      }
+    }
+  ],
+  "links":[
+    {
+      "href": "http://www.localhost.com:3000/api/v1/users/alto-a/bookings?client_id=rdmbSMxIFeJDvQKnBvLBA8NeXQ5ijcnPMtZY0Usg",
+      "rel": "self"
+    },
+    {
+      "href": "http://www.localhost.com:3000/api/v1/users/alto-a?client_id=rdmbSMxIFeJDvQKnBvLBA8NeXQ5ijcnPMtZY0Usg",
+      "rel": "user"
+    }
+  ],
+  "total_entries": 2
+}

@@ -52,13 +52,13 @@ describe Nineflats::Place do
     end
     
     it "should set the links" do
-      @place.self_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
-      @place.full_url.should == "http://www.9flats.com/places/apt-no-centro-histrico-de-lisboa"
-      @place.photos_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
-      @place.prices_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
-      @place.reviews_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
-      @place.calendar_current_month_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
-      @place.calendar_next_month_url.should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.links['self'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.links['full'].should == "http://www.9flats.com/places/apt-no-centro-histrico-de-lisboa"
+      @place.links['photos'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.links['prices'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.links['reviews'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.links['calendar: current month'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.links['calendar: next month'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
     end
 
     it "should set the host" do
