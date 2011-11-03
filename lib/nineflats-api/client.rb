@@ -1,10 +1,6 @@
 require 'nineflats-api/requests'
 module Nineflats
   class Client < Base
-    BASE_URI = "http://www.9flats.com"
-    # BASE_URI = "http://localhost.com:3000"
-
-    attr_accessor :request_token
     attr_accessor :access_token
     attr_reader :consumer
 
@@ -16,6 +12,14 @@ module Nineflats
         yield @@client
       end
       @@client
+    end
+
+    def self.api_site_url
+      @@api_site_url ||= "http://www.9flats.com"
+    end
+
+    def self.api_site_url=(url)
+      @@api_site_url = url
     end
 
     def self.client
@@ -42,7 +46,7 @@ module Nineflats
 
     def initialize(api_key, api_secret, options={})
       @consumer = ::OAuth::Consumer.new(api_key, api_secret, {
-        :site               => BASE_URI,
+        :site               => Nineflats::Client.api_site_url,
         :scheme             => :header,
         :http_method        => :post
        })
