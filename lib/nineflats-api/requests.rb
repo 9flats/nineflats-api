@@ -17,13 +17,11 @@ module Nineflats
       end # user
 
       def bookings(user_id)
+        raise Nineflats::NotAuthenticatedException.new("User is not authenticated yet!") unless Client.client.authorized?
+
         params = {:client_id => consumer.key}
-        if client.access_token
-          response = client.access_token.request(:get, "/api/v1/users/#{user_id}/bookings?#{Nineflats::QueryStringNormalizer.normalize(params)}")
-          JSON.parse(response.body)
-        else
-          raise "So what?"
-        end
+        response = client.access_token.request(:get, "/api/v1/users/#{user_id}/bookings?#{Nineflats::QueryStringNormalizer.normalize(params)}")
+        JSON.parse(response.body)
       end # bookings
 
     end

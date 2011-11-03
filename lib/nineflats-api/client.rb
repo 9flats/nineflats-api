@@ -36,6 +36,10 @@ module Nineflats
       request_token.get_access_token(:oauth_verifier => verifier)
     end
 
+    def authorized?
+      !access_token.nil?
+    end
+
   private
 
     def initialize(api_key, api_secret, options={})
