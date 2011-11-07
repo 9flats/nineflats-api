@@ -2,22 +2,22 @@ require 'spec_helper'
 
 describe Nineflats::Place do
   before(:each) do
-    Nineflats::Base.stub!(:client_app_key).and_return("WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S")
-    FakeWeb.register_uri(:get, 
-      "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=#{Nineflats::Base.client_app_key}&lang=en", 
+    Nineflats::Base.stub!(:client_app_key).and_return("client_app_key")
+    FakeWeb.register_uri(:get,
+      "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=client_app_key&lang=en",
       :body => Fixtures.place
     )
   end
-  
+
   describe "fetch" do
     before(:each) do
       @place = Nineflats::Place.fetch('apt-no-centro-histrico-de-lisboa', 'en')
     end
-    
+
     it "should return a place" do
       @place.class.should == Nineflats::Place
     end
-    
+
     it "should set all the attributes" do
       @place.name.should == "Great river view, Colorful and Cozy"
       @place.city.should == "Lisboa"
@@ -50,15 +50,15 @@ describe Nineflats::Place do
       @place.place_type.should == "Entire place"
       @place.description.should == "Panoramic terrace in the historic center of Lisbon, close to Subway and Airport"
     end
-    
+
     it "should set the links" do
-      @place.links['self'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.links['self'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=client_app_key"
       @place.links['full'].should == "http://www.9flats.com/places/apt-no-centro-histrico-de-lisboa"
-      @place.links['photos'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
-      @place.links['prices'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
-      @place.links['reviews'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
-      @place.links['calendar: current month'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
-      @place.links['calendar: next month'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      @place.links['photos'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/photos?client_id=client_app_key"
+      @place.links['prices'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=client_app_key"
+      @place.links['reviews'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/reviews?client_id=client_app_key"
+      @place.links['calendar: current month'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=client_app_key"
+      @place.links['calendar: next month'].should == "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11?client_id=client_app_key"
     end
 
     it "should set the host" do

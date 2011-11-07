@@ -8,14 +8,6 @@ module Nineflats
       @@client_app_key = key
     end
 
-    def self.base_url
-      "http://api.9flats.com/api/v1"
-    end
-    
-    def self.api_call
-      raise "override me!"
-    end
-    
     def self.object_link(name, array)
       array.select{ |link|
         link["rel"] == name

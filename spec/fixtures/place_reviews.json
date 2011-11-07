@@ -18,6 +18,6 @@
   }],
   "links": [{
       "rel": "self",
-      "href": "http://api.9flats.com/api/v1/places/harmony-villas-close-to-the-sea/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+      "href": "http://api.9flats.com/api/v1/places/harmony-villas-close-to-the-sea/reviews?client_id=client_app_key"
   }]
 }

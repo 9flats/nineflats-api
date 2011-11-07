@@ -33,7 +33,7 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/api/v1/places/maison-de-charme?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -41,23 +41,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/maison-de-charme/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Aline P.",
@@ -99,7 +99,7 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -107,23 +107,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/55qm-loftwohnung/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Johannes M.",
@@ -165,7 +165,7 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -173,23 +173,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/city-apartment-lningstrae/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Ulrike T.",
@@ -231,7 +231,7 @@
             "place_type": "Private room",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -239,23 +239,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/la-tamayo-saira-1051/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Mar\u00eda Isabel P.",
@@ -297,7 +297,7 @@
             "place_type": "Private room",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -305,23 +305,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/houseboat-on-amstel-river/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Martin V.",
@@ -363,7 +363,7 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -371,23 +371,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/picturesque-apartment/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Clive T.",
@@ -429,7 +429,7 @@
             "place_type": "Private room",
             "links": [{
                 "rel": "self",
-                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -437,23 +437,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://www.9flats.com/api/v1/places/affordable-home-in-the-real-bali/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "suzan b.",
@@ -463,10 +463,10 @@
     }],
     "links": [{
         "rel": "self",
-        "href": "http://www.9flats.com/api/v1/users/jana-k-1/favorites?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+        "href": "http://www.9flats.com/api/v1/users/jana-k-1/favorites?client_id=client_app_key"
     },
     {
         "rel": "user",
-        "href": "http://www.9flats.com/api/v1/users/jana-k-1?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+        "href": "http://www.9flats.com/api/v1/users/jana-k-1?client_id=client_app_key"
     }]
 }

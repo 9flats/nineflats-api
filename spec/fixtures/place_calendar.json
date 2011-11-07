@@ -38,10 +38,10 @@
     },
     "links": [{
         "rel": "self",
-        "href": "http://www.9flats.com/api/v1/places/harmony-villas-close-to-the-sea/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+        "href": "http://www.9flats.com/api/v1/places/harmony-villas-close-to-the-sea/calendar/2011/10?client_id=client_app_key"
     },
     {
         "rel": "calendar: next month",
-        "href": "http://www.9flats.com/api/v1/places/harmony-villas-close-to-the-sea/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+        "href": "http://www.9flats.com/api/v1/places/harmony-villas-close-to-the-sea/calendar/2011/11?client_id=client_app_key"
     }]
 }

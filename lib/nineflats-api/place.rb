@@ -51,82 +51,33 @@ module Nineflats
       end
     end
 
-    def self.search(params = nil)
-      params ||= {}
-
-      queries = params.collect do |key, value|
-        "&search[#{key}]=#{value}"
-      end
-
-      search_url = base_url + "/places?client_id=#{Nineflats::Base.client_app_key}" + queries.join
-
-      Place.search_result(search_url)
+    def self.search(params={})
+      Nineflats::Client.places(params)
     end
 
-    def self.search_result(search_url)
-      json = Helpers.get_data(search_url)
-
-      places = json["places"].collect do |place_json|
-        Place.new(place_json)
-      end
-
-      result = Nineflats::PaginatedArray.new(places)
-
-      result.total_entries = json["total_entries"]
-      result.total_pages   = json["total_pages"]
-      result.current_page  = json["current_page"]
-      result.per_page      = json["per_page"]
-
-      result.self_url      = Nineflats::Base.object_link("self", json["links"])
-      result.full_url      = Nineflats::Base.object_link("full", json["links"])
-      result.next_page_url = Nineflats::Base.object_link("next_page", json["links"])
-      result
-    end
 
     def self.fetch(slug, lang)
-      Place.new(Helpers.get_data(Place.api_call(slug, lang)))
+      Nineflats::Client.place(slug, :language => lang)
     end
 
     def prices
       return @prices if @prices
-
-      json = Helpers.get_data(Prices.api_call(slug))
-
-      @prices = Prices.new(json) if json && json["place_prices"]
+      @prices = Nineflats::Client.place_prices(@slug)
     end
 
     def reviews
       return @reviews if @reviews
-
-      json = Helpers.get_data(Review.api_call(slug))
-
-      if json && json["reviews"]
-        @reviews = json["reviews"].collect do |review_hash|
-          Review.new(review_hash)
-        end
-      end
+      @reviews = Nineflats::Client.place_reviews(@slug)
     end
 
     def photos
       return @photos if @photos
-
-      json = Helpers.get_data(Photo.api_call(slug))
-
-      if json && json["place_photos"]
-        @photos = json["place_photos"].collect do |photo_hash|
-          Photo.new(photo_hash)
-        end
-      end
+      @photos = Nineflats::Client.place_photos(@slug)
     end
 
     def calendar(year, month)
-      json = Helpers.get_data(Calendar.api_call(slug, year, month))
-
-      Calendar.new(json) if json && json["calendar"]
+      Nineflats::Client.place_calendar(@slug, year, month)
     end
 
-    def self.api_call(slug, lang)
-      base_url + "/places/#{slug}?client_id=#{Nineflats::Base.client_app_key}&lang=#{lang}"
-    end
   end
 end

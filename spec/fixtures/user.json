@@ -5,7 +5,7 @@
         "user_photo_url": "http://img3.9flats.com/users/photos/11405-1311181665/medium.jpg",
         "links": [{
             "rel": "self",
-            "href": "http://api.9flats.com/api/v1/users/jana-k-1?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+            "href": "http://api.9flats.com/api/v1/users/jana-k-1?client_id=client_app_key"
         },
         {
             "rel": "full",
@@ -13,7 +13,7 @@
         },
         {
             "rel": "favorites",
-            "href": "http://api.9flats.com/api/v1/users/jana-k-1/favorites?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+            "href": "http://api.9flats.com/api/v1/users/jana-k-1/favorites?client_id=client_app_key"
         }]
     }
 }

@@ -37,7 +37,7 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -45,23 +45,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/splendida-villa-toscana-/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "ANTONINO R.",
@@ -103,7 +103,7 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -111,23 +111,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/toscana-siena-e-la-val-di-merse-/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Ilaria B.",
@@ -169,7 +169,7 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -177,23 +177,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "ANTONINO R.",
@@ -235,7 +235,7 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -243,23 +243,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/podere-incrociati-casa-indipendente/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "ANTONINO R.",
@@ -301,7 +301,7 @@
             "place_type": "Private room",
             "links": [{
                 "rel": "self",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -309,23 +309,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Agriturismo Amina M.",
@@ -367,7 +367,7 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://api.9flats.com/api/v1/places/villa-righino?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -375,23 +375,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://api.9flats.com/api/v1/places/villa-righino/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://api.9flats.com/api/v1/places/villa-righino/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://api.9flats.com/api/v1/places/villa-righino/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://api.9flats.com/api/v1/places/villa-righino/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://api.9flats.com/api/v1/places/villa-righino/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/villa-righino/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Lucia C.",
@@ -433,7 +433,7 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -441,23 +441,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/tre-madonne-del-lago/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Antonello B.",
@@ -499,7 +499,7 @@
             "place_type": "Private room",
             "links": [{
                 "rel": "self",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -507,23 +507,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/agriturismo-amina-2/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Agriturismo Amina M.",
@@ -565,7 +565,7 @@
             "place_type": "Entire place",
             "links": [{
                 "rel": "self",
-                "href": "http://api.9flats.com/api/v1/places/la-colombaia?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia?client_id=client_app_key"
             },
             {
                 "rel": "full",
@@ -573,23 +573,23 @@
             },
             {
                 "rel": "photos",
-                "href": "http://api.9flats.com/api/v1/places/la-colombaia/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia/photos?client_id=client_app_key"
             },
             {
                 "rel": "prices",
-                "href": "http://api.9flats.com/api/v1/places/la-colombaia/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia/prices?client_id=client_app_key"
             },
             {
                 "rel": "reviews",
-                "href": "http://api.9flats.com/api/v1/places/la-colombaia/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia/reviews?client_id=client_app_key"
             },
             {
                 "rel": "calendar: current month",
-                "href": "http://api.9flats.com/api/v1/places/la-colombaia/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia/calendar/2011/10?client_id=client_app_key"
             },
             {
                 "rel": "calendar: next month",
-                "href": "http://api.9flats.com/api/v1/places/la-colombaia/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+                "href": "http://api.9flats.com/api/v1/places/la-colombaia/calendar/2011/11?client_id=client_app_key"
             }],
             "host": {
                 "name": "Nicola  G.",
@@ -599,7 +599,7 @@
     }],
     "links": [{
         "rel": "self",
-        "href": "http://api.9flats.com/api/v1/places?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S&search[amenities]=&search[bb_ne]=&search[bb_sw]=&search[currency]=USD&search[end_date]=&search[exclude_place_id]=&search[lat]=43.3186614&search[lng]=11.3305135&search[number_of_bathrooms]=0&search[number_of_bedrooms]=0&search[number_of_beds]=3&search[page]=1&search[place_type]=&search[price_max]=&search[price_min]=&search[query]=siena&search[radius]=20&search[sort_by]=top_ranking&search[start_date]=&search[woeid]="
+        "href": "http://api.9flats.com/api/v1/places?client_id=client_app_key&search[amenities]=&search[bb_ne]=&search[bb_sw]=&search[currency]=USD&search[end_date]=&search[exclude_place_id]=&search[lat]=43.3186614&search[lng]=11.3305135&search[number_of_bathrooms]=0&search[number_of_bedrooms]=0&search[number_of_beds]=3&search[page]=1&search[place_type]=&search[price_max]=&search[price_min]=&search[query]=siena&search[radius]=20&search[sort_by]=top_ranking&search[start_date]=&search[woeid]="
     },
     {
         "rel": "full",
@@ -607,6 +607,6 @@
     },
     {
         "rel": "next_page",
-        "href": "http://api.9flats.com/api/v1/places?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S&search[amenities]=&search[bb_ne]=&search[bb_sw]=&search[currency]=USD&search[end_date]=&search[exclude_place_id]=&search[lat]=43.3186614&search[lng]=11.3305135&search[number_of_bathrooms]=0&search[number_of_bedrooms]=0&search[number_of_beds]=3&search[page]=2&search[place_type]=&search[price_max]=&search[price_min]=&search[query]=siena&search[radius]=20&search[sort_by]=top_ranking&search[start_date]=&search[woeid]="
+        "href": "http://api.9flats.com/api/v1/places?client_id=client_app_key&search[amenities]=&search[bb_ne]=&search[bb_sw]=&search[currency]=USD&search[end_date]=&search[exclude_place_id]=&search[lat]=43.3186614&search[lng]=11.3305135&search[number_of_bathrooms]=0&search[number_of_bedrooms]=0&search[number_of_beds]=3&search[page]=2&search[place_type]=&search[price_max]=&search[price_min]=&search[query]=siena&search[radius]=20&search[sort_by]=top_ranking&search[start_date]=&search[woeid]="
     }]
 }

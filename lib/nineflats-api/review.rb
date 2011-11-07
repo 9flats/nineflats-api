@@ -10,9 +10,5 @@ module Nineflats
       @place_stars = review["place_stars"]
       @language    = review["language"]
     end
-    
-    def self.api_call(slug)
-      base_url + "/places/#{slug}/reviews?client_id=#{Nineflats::Base.client_app_key}"
-    end
   end
 end

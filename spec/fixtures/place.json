@@ -32,7 +32,7 @@
         "place_type": "Entire place",
         "links": [{
             "rel": "self",
-            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa?client_id=client_app_key"
         },
         {
             "rel": "full",
@@ -40,23 +40,23 @@
         },
         {
             "rel": "photos",
-            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/photos?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/photos?client_id=client_app_key"
         },
         {
             "rel": "prices",
-            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/prices?client_id=client_app_key"
         },
         {
             "rel": "reviews",
-            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/reviews?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/reviews?client_id=client_app_key"
         },
         {
             "rel": "calendar: current month",
-            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/10?client_id=client_app_key"
         },
         {
             "rel": "calendar: next month",
-            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11?client_id=WfKWrPywnEbMhlifGlrsLu2ULfvTwxrKQji5eg0S"
+            "href": "http://api.9flats.com/api/v1/places/apt-no-centro-histrico-de-lisboa/calendar/2011/11?client_id=client_app_key"
         }],
         "host": {
             "name": "Paulo M.",

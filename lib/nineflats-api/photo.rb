@@ -9,9 +9,5 @@ module Nineflats
       @caption = photo["caption"]
       @url     = photo["url"]
     end
-    
-    def self.api_call(slug)
-      base_url + "/places/#{slug}/photos?client_id=#{Nineflats::Base.client_app_key}"
-    end
   end
 end
