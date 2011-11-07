@@ -5,6 +5,7 @@ module Nineflats
                   :seasons
 
     def initialize(prices)
+      @raw_data = prices
       @currency                    = prices["currency"]
       @default_price               = prices["default_price"]
       @weekend_night_price         = prices["weekend_night_price"]

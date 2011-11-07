@@ -3,6 +3,7 @@ module Nineflats
     attr_accessor :title, :caption, :url
     
     def initialize(json)
+      @raw_data = json
       photo = json.first[1]
 
       @title   = photo["title"]

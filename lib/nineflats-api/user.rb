@@ -4,6 +4,7 @@ module Nineflats
                   :self_url, :favorites_url, :full_url
 
     def initialize(json)
+      @raw_data = json
       user = json.first[1]
 
       @name           = user["name"]

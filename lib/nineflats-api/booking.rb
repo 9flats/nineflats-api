@@ -5,6 +5,7 @@ module Nineflats
     attr_accessor :host, :links, :place
 
     def initialize(json)
+      @raw_data = json
       booking = json.first[1]
 
       @checkin_date     = booking["checkin_date"]

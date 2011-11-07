@@ -10,6 +10,7 @@ module Nineflats
                   :host, :links, :prices, :reviews, :photos
 
     def initialize(json)
+      @raw_data = json
       place = json.first[1]
 
       @name                          = place["name"]

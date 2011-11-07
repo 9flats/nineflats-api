@@ -40,6 +40,8 @@ module Nineflats
             html += "</div>"
           end
           html += "</div>"
+        elsif object.is_a?(Nineflats::Base)
+          html = ruby_to_html(html, object.raw_data)
         else
           html += "<div class=\"string\">#{object.to_s}</div>"
         end
