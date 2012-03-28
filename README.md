@@ -1,3 +1,8 @@
+### This gem is no longer supported and only usefull for v1
+If you would like to maintain it please contact api@9flats.com
+
+----------------------------------------------------------------------------------
+
 This gem helps you to use the 9flats.com API in your Ruby code. It always uses the latest API version. The current API version is 1.0.
 
 Find the full API documentation here: http://9flats.github.com/api_docs/
